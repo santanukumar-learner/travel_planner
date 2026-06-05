@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+bin/
+lib/
+include/
+share/
+pyvenv.cfg
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Environment variables (NEVER commit these)
+.env
+.flaskenv
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db

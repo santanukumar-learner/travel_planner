@@ -1,0 +1,73 @@
+[
+  {
+    "id": "religious_1",
+    "title": "Hanuman Vatika",
+    "content": "Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet. The complex contains multiple shrines, gardens, and a kalyan mandap, making it ideal for families and community gatherings. Best visited in the evening for cooler weather.",
+    "lat": 22.23,
+    "lng": 84.826
+  },
+  {
+    "id": "religious_2",
+    "title": "Vedvyas Temple",
+    "content": "Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata. It is located at the confluence of the Brahmani, Koel, and Saraswati rivers, approximately 20 km from Rourkela. The atmosphere is peaceful and spiritual, usually less crowded.",
+    "lat": 22.014,
+    "lng": 84.617
+  },
+  {
+    "id": "nature_1",
+    "title": "Indira Gandhi Park",
+    "content": "Indira Gandhi Park is one of the largest public parks in Rourkela. It is open from 8 AM to 6 PM and ideal for families, especially in the cool morning hours. Features include a small zoo, a toy train, and a musical fountain. Entry fee: Rs 10.",
+    "lat": 22.254,
+    "lng": 84.866
+  },
+  {
+    "id": "religious_7",
+    "title": "Jagannath Temple, Sector 3",
+    "content": "The Jagannath Temple in Rourkela’s Sector 3 is a replica of the famous Puri Jagannath Temple. It is well-maintained and hosts the annual Rath Yatra, making it a significant religious site within the city.",
+    "lat": 22.23,
+    "lng": 84.85
+  },
+  {
+    "id": "nature_3",
+    "title": "Mandira Dam",
+    "content": "Mandira Dam is a scenic reservoir near Kansbahal’s foothills, constructed to supply water to Rourkela Steel Plant. Popular picnic spot with boating facilities. Best visited during cool weather, especially post-monsoon.",
+    "lat": 22.252,
+    "lng": 84.617
+  },
+  {
+    "id": "nature_4",
+    "title": "Pitamahal Dam",
+    "content": "Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests. Visitors enjoy boating, scenic photography, and picnics. Best time: winter and post-monsoon.",
+    "lat": 22.27,
+    "lng": 84.62
+  },
+  {
+    "id": "nature_11",
+    "title": "Koel Riverbank",
+    "content": "Koel Riverbank is a peaceful riverside spot near Rourkela, suitable for relaxation, picnics, and evening walks. It offers scenic views of the flowing river and surrounding greenery.",
+    "lat": 22.2458,
+    "lng": 84.784
+  },
+  {
+    "id": "religious_9",
+    "title": "Rani Sati Mandir",
+    "content": "Rani Sati Mandir in Rourkela is a well-known spiritual destination dedicated to Goddess Rani Sati. It attracts devotees during daily prayers and festivals. Located within city limits and easily accessible.",
+    "lat": 22.4039,
+    "lng": 84.7319
+  },
+  {
+    "id": "nature_5",
+    "title": "Darjeeng Picnic Spot",
+    "content": "Darjeeng is a scenic riverside picnic spot on the banks of the Brahmani River, about 45 km from Rourkela. Surrounded by hills and dense forests, it’s a peaceful choice for picnics and photography. Best visited in winter and early summer.",
+    "lat": 21.9096,
+    "lng": 84.9548
+  },
+  {
+    "id": "nature_13",
+    "title": "Mirigikhoj Waterfall",
+    "content": "Mirigikhoj Waterfall is a hidden natural waterfall near Rourkela, surrounded by forest. Best visited in post-monsoon and winter, it is suitable for trekking and nature photography.",
+    "lat": null,
+    "lng": null,
+    "pincode": 770052
+  }
+]

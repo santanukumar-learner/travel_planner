@@ -1,0 +1,164 @@
+[
+  {
+    "id": "general_1",
+    "title": "Rourkela Overview",
+    "content": "Rourkela is a city in Odisha, also known as the Steel City of Odisha. Its name comes from the Sadri language meaning 'Your Village'. It became famous for India’s first public sector steel plant, set up in the 1960s by SAIL with German collaboration (Krupp & Demag). The best time to visit is from November to March. Climate is generally dry with hot summers and cool winters. Local etiquette: greet with 'Namaste'. Languages spoken include Odia, Hindi, and some English.",
+    "lat": 22.2396,
+    "lng": 84.8633
+  },
+  {
+    "id": "religious_1",
+    "title": "Hanuman Vatika",
+    "content": "Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet. The complex contains multiple shrines, gardens, and a kalyan mandap, making it ideal for families and community gatherings. Best visited in the evening for cooler weather.",
+    "lat": 22.230,
+    "lng": 84.826
+  },
+  {
+    "id": "religious_2",
+    "title": "Vedvyas Temple",
+    "content": "Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata. It is located at the confluence of the Brahmani, Koel, and Saraswati rivers, approximately 20 km from Rourkela. The atmosphere is peaceful and spiritual, usually less crowded.",
+    "lat": 22.014,
+    "lng": 84.617
+  },
+  {
+    "id": "religious_3",
+    "title": "Vaishno Devi Temple (hilltop)",
+    "content": "The Vaishno Devi Temple of Rourkela is located on a hilltop and offers a panoramic view of the city. Visitors can enjoy both spiritual experience and photography. Vehicles can be parked at the base, and a short trek leads to the shrine.",
+    "lat": 22.280,
+    "lng": 84.840
+  },
+  {
+    "id": "religious_4",
+    "title": "Laxmi Narayan Mandir",
+    "content": "Laxmi Narayan Mandir is a hilltop temple in Rourkela known for its tranquil surroundings and peaceful atmosphere. It is especially lively during festivals, which attract many devotees.",
+    "lat": 22.260,
+    "lng": 84.858
+  },
+  {
+    "id": "religious_5",
+    "title": "Rani Sati Temple",
+    "content": "Rani Sati Temple in Rourkela is a prominent religious site dedicated to Goddess Rani Sati. Its attractive architecture and peaceful ambiance draw devotees, especially during festivals and special pujas. Located within city limits.",
+    "lat": 22.230,
+    "lng": 84.855
+  },
+  {
+    "id": "religious_6",
+    "title": "Vaishno Devi Temple (Sector 5)",
+    "content": "This Vaishno Devi temple, located in Sector 5 of Rourkela, is distinct from the hilltop one. It is a popular local shrine for daily prayers and evening aarti, easily accessible from nearby residential areas.",
+    "lat": 22.244,
+    "lng": 84.857
+  },
+  {
+    "id": "religious_7",
+    "title": "Jagannath Temple, Sector 3",
+    "content": "The Jagannath Temple in Rourkela’s Sector 3 is a replica of the famous Puri Jagannath Temple. It is well-maintained and hosts the annual Rath Yatra, making it a significant religious site within the city.",
+    "lat": 22.230,
+    "lng": 84.850
+  },
+  {
+    "id": "religious_8",
+    "title": "Bhairab Mandir",
+    "content": "Bhairab Mandir, located in Bondamunda near Rourkela, is a temple dedicated to Lord Shiva in his Bhairab form. Surrounded by trees and rocky landscapes, it offers a peaceful place for meditation and worship.",
+    "lat": 22.233,
+    "lng": 84.836
+  },
+  {
+    "id": "nature_1",
+    "title": "Indira Gandhi Park",
+    "content": "Indira Gandhi Park is one of the largest public parks in Rourkela. It is open from 8 AM to 6 PM and ideal for families, especially in the cool morning hours. Features include a small zoo, a toy train, and a musical fountain. Entry fee: Rs 10.",
+    "lat": 22.254,
+    "lng": 84.866
+  },
+  {
+    "id": "nature_2",
+    "title": "Ispat Nehru Park",
+    "content": "Ispat Nehru Park in Rourkela offers greenery and shaded picnic areas. It includes indoor shelters that make it suitable even during light rain. Entry fee: approx. Rs 20. Great for families with children.",
+    "lat": 22.255,
+    "lng": 84.870
+  },
+  {
+    "id": "nature_3",
+    "title": "Mandira Dam",
+    "content": "Mandira Dam is a scenic reservoir near Kansbahal’s foothills, constructed to supply water to Rourkela Steel Plant. Popular picnic spot with boating facilities. Best visited during cool weather, especially post-monsoon.",
+    "lat": 22.252,
+    "lng": 84.617
+  },
+  {
+    "id": "nature_4",
+    "title": "Pitamahal Dam",
+    "content": "Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests. Visitors enjoy boating, scenic photography, and picnics. Best time: winter and post-monsoon.",
+    "lat": 22.270,
+    "lng": 84.620
+  },
+  {
+    "id": "nature_5",
+    "title": "Darjeeng Picnic Spot",
+    "content": "Darjeeng is a scenic riverside picnic spot on the banks of the Brahmani River, about 45 km from Rourkela. Surrounded by hills and dense forests, it’s a peaceful choice for picnics and photography. Best visited in winter and early summer.",
+    "lat": 21.9096,
+    "lng": 84.9548
+  },
+  {
+    "id": "nature_6",
+    "title": "Ghogar Natural Site",
+    "content": "Ghogar is a serene natural site near Rourkela featuring small waterfalls, streams, and rocky hills. Popular among trekkers and nature lovers. Best time: post-monsoon to winter.",
+    "lat": 22.240,
+    "lng": 84.770
+  },
+  {
+    "id": "nature_7",
+    "title": "Kanha Kund",
+    "content": "Kanha Kund is a hidden natural pool and waterfall near Vedvyas, formed by streams and rocks. Surrounded by forest and large boulders, it’s ideal for trekking and photography. Best time: winter and post-monsoon.",
+    "lat": 22.015,
+    "lng": 84.620
+  },
+  {
+    "id": "nature_8",
+    "title": "Ghagara Waterfall",
+    "content": "Ghagara Waterfall is a small scenic waterfall near Darjeeng, around 40 km from Rourkela. Surrounded by forest and hills, it’s excellent for trekking, picnics, and nature photography. Best visited post-monsoon.",
+    "lat": 21.915,
+    "lng": 84.960
+  },
+  {
+    "id": "nature_9",
+    "title": "Ushakothi Wildlife Sanctuary",
+    "content": "Ushakothi Wildlife Sanctuary, about 40 km from Rourkela, is home to elephants, tigers, leopards, wild boars, and various bird species. Ideal for wildlife enthusiasts and photographers. Best time: November to March. Safari available.",
+    "lat": 22.180,
+    "lng": 84.900
+  },
+  {
+    "id": "nature_10",
+    "title": "Green Park",
+    "content": "Green Park is maintained by Rourkela Steel Plant and features well-kept lawns, flower beds, and fountains. Entry is free, and it’s ideal for relaxed evening walks and family visits, popular for its clean ambiance.",
+    "lat": 22.249,
+    "lng": 84.864
+  },
+  {
+    "id": "nature_11",
+    "title": "Koel Riverbank",
+    "content": "Koel Riverbank is a peaceful riverside spot near Rourkela, suitable for relaxation, picnics, and evening walks. It offers scenic views of the flowing river and surrounding greenery.",
+    "lat": 22.2458,
+    "lng": 84.7840
+  },
+  {
+    "id": "religious_9",
+    "title": "Rani Sati Mandir",
+    "content": "Rani Sati Mandir in Rourkela is a well-known spiritual destination dedicated to Goddess Rani Sati. It attracts devotees during daily prayers and festivals. Located within city limits and easily accessible.",
+    "lat": 22.4039,
+    "lng": 84.7319
+  },
+  {
+    "id": "nature_12",
+    "title": "Deodhar Picnic Spot",
+    "content": "Deodhar George (Picnic Spot) is a natural scenic location with rocky terrain, streams, and greenery near Rourkela. It is less crowded and ideal for nature lovers, photography, and peaceful outings.",
+    "lat": 22.2000,
+    "lng": 84.8100
+  },
+  {
+    "id": "nature_13",
+    "title": "Mirigikhoj Waterfall",
+    "content": "Mirigikhoj Waterfall is a hidden natural waterfall near Rourkela, surrounded by forest. Best visited in post-monsoon and winter, it is suitable for trekking and nature photography.",
+    "lat": null,
+    "lng": null,
+    "pincode": 770052
+  }
+]

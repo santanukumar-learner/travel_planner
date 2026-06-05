@@ -1,0 +1,136 @@
+{
+  "religious_1": {
+    "place_name": "Hanuman Vatika",
+    "daily_base_crowds": {
+      "monday": 40,
+      "tuesday": 65,
+      "wednesday": 35,
+      "thursday": 40,
+      "friday": 55,
+      "saturday": 85,
+      "sunday": 90
+    },
+    "hourly_patterns": {
+      "early_morning": {
+        "multiplier": 0.4,
+        "hours": [
+          6,
+          7,
+          8
+        ]
+      },
+      "morning": {
+        "multiplier": 0.7,
+        "hours": [
+          9,
+          10,
+          11
+        ]
+      },
+      "afternoon": {
+        "multiplier": 0.6,
+        "hours": [
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "evening": {
+        "multiplier": 1.0,
+        "hours": [
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "night": {
+        "multiplier": 0.5,
+        "hours": [
+          20,
+          21,
+          22
+        ]
+      }
+    },
+    "festival_multipliers": {
+      "hanuman_jayanti": 3.5,
+      "tuesday_special": 1.8,
+      "diwali": 2.5
+    },
+    "weather_sensitivity": {
+      "rain": 0.8,
+      "hot_weather": 0.7,
+      "cold_weather": 0.9
+    },
+    "capacity_level": "high"
+  },
+  "nature_1": {
+    "place_name": "Indira Gandhi Park",
+    "daily_base_crowds": {
+      "monday": 25,
+      "tuesday": 20,
+      "wednesday": 25,
+      "thursday": 30,
+      "friday": 40,
+      "saturday": 80,
+      "sunday": 85
+    },
+    "hourly_patterns": {
+      "early_morning": {
+        "multiplier": 0.3,
+        "hours": [
+          6,
+          7,
+          8
+        ]
+      },
+      "morning": {
+        "multiplier": 0.6,
+        "hours": [
+          9,
+          10,
+          11
+        ]
+      },
+      "afternoon": {
+        "multiplier": 0.4,
+        "hours": [
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "evening": {
+        "multiplier": 1.0,
+        "hours": [
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "night": {
+        "multiplier": 0.2,
+        "hours": [
+          20,
+          21,
+          22
+        ]
+      }
+    },
+    "festival_multipliers": {
+      "children_day": 2.0,
+      "republic_day": 1.5,
+      "independence_day": 1.8
+    },
+    "weather_sensitivity": {
+      "rain": 0.2,
+      "hot_weather": 0.5,
+      "cold_weather": 0.8
+    },
+    "capacity_level": "high"
+  }
+}
