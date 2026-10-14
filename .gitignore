@@ -1,0 +1,100 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+.python-version
+
+# =========================
+# Packaging / Builds
+# =========================
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# =========================
+# Installer logs
+# =========================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# Unit test / coverage
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Framework-specific
+# =========================
+# Django
+db.sqlite3
+staticfiles/
+
+# Flask / FastAPI
+instance/
+
+
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+
+*.iml
+
+# Local data and artifacts not needed by the Streamlit service
+faiss_index/
+*.zip
+*.mp4
+*.pkl

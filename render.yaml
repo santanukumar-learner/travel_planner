@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: rourkela-travel-planner
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-streamlit.txt
+    startCommand: python -m streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true
+    healthCheckPath: /_stcore/health
