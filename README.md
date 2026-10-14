@@ -222,3 +222,20 @@ Requires `TWITTER_BEARER_KEY` in your `.env`.
   [data_converter.py](data_converter.py) for future dates.
 - If the FAISS index gets stale after editing the datasets, delete the `faiss_index/` folder to
   force a rebuild on the next run.
+
+---
+
+## Streamlit app (no API key or Docker)
+
+The local web app lets visitors choose a starting place, date, radius, hours, and optional stops. It uses `rag.json`, estimates travel at 20 km/h, and offers a map and itinerary download. Coordinates are handled internally; visitors do not enter them.
+
+```powershell
+python -m pip install -r requirements-streamlit.txt
+python -m streamlit run streamlit_app.py
+```
+
+On Windows, `run_streamlit.ps1` uses the installed Python directly when a terminal still resolves the Microsoft Store shortcut.
+
+### Deploy on Render
+
+`render.yaml` defines a free Python web service. Connect this repository to Render and create a Blueprint from the repository root. It installs only `requirements-streamlit.txt`, binds Streamlit to Render's `$PORT`, and uses `/_stcore/health` for health checks. This app does not use Gemini, live weather, crowd prediction, Docker, or Pathway.
