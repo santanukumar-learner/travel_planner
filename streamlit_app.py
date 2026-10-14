@@ -33,12 +33,12 @@ if generate:
     try:
         center = start_locations[start_name]
         nearby, itinerary = plan_day(places, center, visit_date, start_hour, end_hour, radius, max_stops, selected)
-        st.session_state["plan"] = (nearby, itinerary, visit_date.isoformat(), center, start_name)
+        st.session_state["plan_v2"] = (nearby, itinerary, visit_date.isoformat(), center, start_name)
     except ValueError as exc:
         st.error(str(exc))
 
-if "plan" in st.session_state:
-    nearby, itinerary, planned_date, center, planned_start = st.session_state["plan"]
+if "plan_v2" in st.session_state:
+    nearby, itinerary, planned_date, center, planned_start = st.session_state["plan_v2"]
     st.subheader(f"Itinerary for {planned_date}")
     st.caption(f"Starting from {planned_start}")
     if not itinerary:
