@@ -99,3 +99,16 @@ faiss_index/
 *.zip
 *.mp4
 *.pkl
+
+# Additional ignore rules retained from GitHub
+bin/
+lib/
+include/
+share/
+pyvenv.cfg
+*.egg
+*.cover
+.hypothesis/
+.pytest_cache/
+.ipynb_checkpoints
+.flaskenv
