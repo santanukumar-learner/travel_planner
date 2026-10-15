@@ -1,0 +1,4 @@
+sacrebleu==2.6.0
+jsonschema>=4.23,<5
+pytest>=8,<10
+python-dotenv>=1,<2

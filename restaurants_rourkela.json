@@ -1,0 +1,913 @@
+[
+  {
+    "name": "Hotel Shubham",
+    "address": "Railway Station, Shubham Lane, Rourkela",
+    "rating": 3.5,
+    "user_ratings_total": 835,
+    "lat": 22.2261852,
+    "lng": 84.86267989999999,
+    "types": [
+      "lodging",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJAQAAZMgeIDoRittf4PRqLbE"
+  },
+  {
+    "name": "Hotel Radhika Regency",
+    "address": "near Vijaya Bank, Bisra Road, Udit Nagar, Rourkela",
+    "rating": 4.2,
+    "user_ratings_total": 5595,
+    "lat": 22.2243429,
+    "lng": 84.8637236,
+    "types": [
+      "lodging",
+      "bar",
+      "store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJpUH8GMkeIDoRfyH6-nvDpck"
+  },
+  {
+    "name": "Pahadi Restaurant",
+    "address": "State Highway 10, Vedvyas, Gopapali",
+    "rating": 4.2,
+    "user_ratings_total": 1749,
+    "lat": 22.23690979999999,
+    "lng": 84.7727201,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJQ9XgDVgXIDoRqrREG4N8ZiI"
+  },
+  {
+    "name": "Neelam Restaurant",
+    "address": "Indian Oil, Bank Street, Sector 19, Rourkela",
+    "rating": 3.6,
+    "user_ratings_total": 458,
+    "lat": 22.2548939,
+    "lng": 84.86638529999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJJTGBwgIcIDoRdNlNtyvjDDo"
+  },
+  {
+    "name": "Hotel Kanisshk International",
+    "address": "Madhusudan Marg, Station Road, Rourkela",
+    "rating": 3.8,
+    "user_ratings_total": 510,
+    "lat": 22.2241388,
+    "lng": 84.8636831,
+    "types": [
+      "lodging",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJMzndO8keIDoRCg9Q00lYHWQ"
+  },
+  {
+    "name": "Curry Pot",
+    "address": "Infront of Hotel Mayfair, H 1, Panposh Road, Civil Township, Rourkela",
+    "rating": 4.1,
+    "user_ratings_total": 2848,
+    "lat": 22.226917,
+    "lng": 84.82128999999999,
+    "types": [
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJg1IvyAwZIDoR-589EU8DFkU"
+  },
+  {
+    "name": "The Host Restaurant",
+    "address": "6RGQ+P82, Udit Nagar, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.226767,
+    "lng": 84.8382685,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJp-_koT8ZIDoRZDbEsObBozs"
+  },
+  {
+    "name": "The Sarovar court",
+    "address": "Ispat Market, Ambagan Circle, Sector 19, Rourkela",
+    "rating": 4,
+    "user_ratings_total": 1171,
+    "lat": 22.2562044,
+    "lng": 84.86548409999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJ____P_AbIDoRvOQ7TAurNMc"
+  },
+  {
+    "name": "Domino's Pizza | Udit Nagar, Rourkela",
+    "address": "Choudhary Complex, 1st & 2nd Floor, opposite Employment Exchange, Kachery Road, Udit Nagar, Rourkela",
+    "rating": 4,
+    "user_ratings_total": 3433,
+    "lat": 22.2268359,
+    "lng": 84.84253749999999,
+    "types": [
+      "meal_takeaway",
+      "meal_delivery",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJLVCy6jgZIDoR4yBvtiWbPuw"
+  },
+  {
+    "name": "New Khana Khazana Restaurant",
+    "address": "Pani Market Complex, 1st Floor, near Corporation Bank, Main Road, Udit Nagar, Rourkela",
+    "rating": 3.9,
+    "user_ratings_total": 3925,
+    "lat": 22.2269957,
+    "lng": 84.8399341,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJC6-JPz8ZIDoRDLf6OhQVNrs"
+  },
+  {
+    "name": "Moksha",
+    "address": "near Railway Station, Kachery Road, Rourkela",
+    "rating": 4.1,
+    "user_ratings_total": 1234,
+    "lat": 22.22477719999999,
+    "lng": 84.8625107,
+    "types": [
+      "restaurant",
+      "bar",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJA_UMZ8keIDoRYtxarOt3arI"
+  },
+  {
+    "name": "Pizza Den",
+    "address": "Madhusudan Marg, Station Road, Rourkela",
+    "rating": 4.3,
+    "user_ratings_total": 2742,
+    "lat": 22.2239287,
+    "lng": 84.8635513,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJU8-MOckeIDoRasEW2SBKZAc"
+  },
+  {
+    "name": "Hungree Dosa Plaza",
+    "address": "Vrindavan Plaza, 62/1409, Main Road, Rourkela",
+    "rating": 4.1,
+    "user_ratings_total": 3250,
+    "lat": 22.2264455,
+    "lng": 84.8351088,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJawDNYa0ZIDoRcyNhsMl9Hsg"
+  },
+  {
+    "name": "Piplani's Sweets, STI Chowk, Rourkela",
+    "address": "1st Spring Citi Panposh Road Near Area 51 STI Chowk, Rourkela",
+    "rating": 4.2,
+    "user_ratings_total": 2332,
+    "lat": 22.2265384,
+    "lng": 84.8298339,
+    "types": [
+      "store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJlREwQhMZIDoRh0qkiuoIDAw"
+  },
+  {
+    "name": "Hotel Mantra Palace",
+    "address": "Beside PSR Cinema, Panposh Road, Civil Township, Rourkela",
+    "rating": 3.7,
+    "user_ratings_total": 712,
+    "lat": 22.2277326,
+    "lng": 84.8202822,
+    "types": [
+      "lodging",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJv40qq3QZIDoRgyqO5_bGsAo"
+  },
+  {
+    "name": "Online Food Zone",
+    "address": "Rourkela",
+    "rating": 3.8,
+    "user_ratings_total": 8,
+    "lat": 22.2247682,
+    "lng": 84.8228875,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJJVbXwp8ZIDoReXamXC2_Pe0"
+  },
+  {
+    "name": "Salimar Hotel",
+    "address": "7V63+5C8, Sector-17, Rourkela",
+    "rating": 3.8,
+    "user_ratings_total": 6,
+    "lat": 22.2604222,
+    "lng": 84.8535744,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJqVESGvkbIDoRyv8AcIrLPbk"
+  },
+  {
+    "name": "Silver Spoon restaurant",
+    "address": "7V63+5C8, Rourkela",
+    "rating": 5,
+    "user_ratings_total": 1,
+    "lat": 22.2604214,
+    "lng": 84.85356569999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJidg7XAAbIDoRbRNWuu65vJw"
+  },
+  {
+    "name": "Resturant curry",
+    "address": "7V63+5C8, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2604214,
+    "lng": 84.85356569999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJUQNPOwAbIDoRD6gkxvcPOWY"
+  },
+  {
+    "name": "Badaik Babu Shop",
+    "address": "Bispur Bispur, Rourkela",
+    "rating": 5,
+    "user_ratings_total": 1,
+    "lat": 22.2604249,
+    "lng": 84.8535654,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJrSH7B8YbIDoRm4x1CUTFXdE"
+  },
+  {
+    "name": "The Chef Point",
+    "address": "7V63+W74, Unnamed Road, Sector 16, Rourkela",
+    "rating": 4,
+    "user_ratings_total": 4,
+    "lat": 22.262269,
+    "lng": 84.85319129999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJE8IH7sMbIDoRr0sC9rCAstM"
+  },
+  {
+    "name": "Sumita",
+    "address": "Shop 9, near Dinesh Gupchup, Sector 16, Rourkela",
+    "rating": 5,
+    "user_ratings_total": 1,
+    "lat": 22.2623292,
+    "lng": 84.8543802,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJtZP6PyQbIDoRcaJVwn67wu4"
+  },
+  {
+    "name": "BOMBAY FAST FOOD",
+    "address": "India",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2625303,
+    "lng": 84.85406239999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJbS1ws_kbIDoRKcKB8SP8Q-k"
+  },
+  {
+    "name": "MAA BIRAJA SWEETS AND SNACKS",
+    "address": "daily market Gurudwara, Market Area, Sector 16, Rourkela",
+    "rating": 5,
+    "user_ratings_total": 1,
+    "lat": 22.26251850000001,
+    "lng": 84.8542789,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJRx5aXQAbIDoR3ojgiZ_ACeQ"
+  },
+  {
+    "name": "Dada Fast Food Sector-16",
+    "address": "7V73+245, Sector 16, Rourkela",
+    "rating": 4.8,
+    "user_ratings_total": 6,
+    "lat": 22.2625234,
+    "lng": 84.8528654,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJbYBGj6obIDoRnFPOgNI7s2Q"
+  },
+  {
+    "name": "Aarbee Broiler",
+    "address": "near Fish Market & Ispat Gurudwara Madras Canteen --Ispat Gurudwara (GTB Public school, Ispat Gurudwara Sector 17/18, near Fish Market & Ispat Gurudwara Madras Canteen --Ispat Gurudwara (GTB Public school, Rourkela",
+    "rating": 5,
+    "user_ratings_total": 1,
+    "lat": 22.2626903,
+    "lng": 84.8540807,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJrx7E00IbIDoR-dkNdaOpQt0"
+  },
+  {
+    "name": "Hotel Trisha",
+    "address": "Shop 1, Nac Market, Sector 18, Rourkela",
+    "rating": 5,
+    "user_ratings_total": 1,
+    "lat": 22.2626264,
+    "lng": 84.85452149999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJ15yquLobIDoRAOlr8av7kYo"
+  },
+  {
+    "name": "Manoj Store",
+    "address": "Chhend Colony, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2626678,
+    "lng": 84.8544011,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJ-VuuMM4bIDoRXQMKTMurZ7k"
+  },
+  {
+    "name": "Madras Canteen",
+    "address": "Sector 16, Raurkela Industrialship",
+    "rating": 4,
+    "user_ratings_total": 591,
+    "lat": 22.262539,
+    "lng": 84.85241309999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJe1QykvkbIDoRmkaBnXW-wms"
+  },
+  {
+    "name": "MAA HOTEL",
+    "address": "India",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2579333,
+    "lng": 84.8536026,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJiTnL0f4bIDoRN2i2UeknPes"
+  },
+  {
+    "name": "Disha Fast Food",
+    "address": "Market, Sector 18, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2625852,
+    "lng": 84.8550168,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJKUZQ-MobIDoRkfk0gU1hmTg"
+  },
+  {
+    "name": "Royal Fast Food",
+    "address": "Sector 16, Rourkela",
+    "rating": 5,
+    "user_ratings_total": 20,
+    "lat": 22.262467,
+    "lng": 84.8516191,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJBaKqlqUbIDoRAaerE_M5Mt4"
+  },
+  {
+    "name": "HOT and SPICY MOMOS",
+    "address": "Shop No1 Sector16, Sector 16, Chowk",
+    "rating": 5,
+    "user_ratings_total": 6,
+    "lat": 22.2625182,
+    "lng": 84.8513372,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJu9_9R90bIDoRbXtjZQeQh5A"
+  },
+  {
+    "name": "Pizza Inn",
+    "address": "NAC Market, Sector 18, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2627507,
+    "lng": 84.8556105,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJ7wGo5k0bIDoRUbnztYWT6po"
+  },
+  {
+    "name": "THE BUNNY SUNNY HUTCH",
+    "address": "in front of ice factory, Daily Market, Sector 18, Rourkela",
+    "rating": 4.8,
+    "user_ratings_total": 9,
+    "lat": 22.262673,
+    "lng": 84.85583319999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJTyUA2VobIDoRJuBUJwT7SK0"
+  },
+  {
+    "name": "Indian fast food",
+    "address": "Laxmi Market, near Community Centre, Sector 17, Rourkela 3, Sector-17, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2569408,
+    "lng": 84.8535919,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJV4zu5_4bIDoR5rB9ptBraIg"
+  },
+  {
+    "name": "Ruhi Snacks",
+    "address": "near Durga Mandap, Sector 18, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2621101,
+    "lng": 84.8572887,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJqTl1gdEdIDoRDdOzFbV9ePY"
+  },
+  {
+    "name": "Ramesh fast food",
+    "address": "near DAV Public School, Sector 16, Rourkela",
+    "rating": 4.5,
+    "user_ratings_total": 2,
+    "lat": 22.2614783,
+    "lng": 84.8490477,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJLSe_WTobIDoR3AQ7Lo8BWVY"
+  },
+  {
+    "name": "Raman gupta gupchup & chaat",
+    "address": "chowk, Sector 18, Rourkela",
+    "rating": 3.7,
+    "user_ratings_total": 3,
+    "lat": 22.262888,
+    "lng": 84.8574568,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJt_maIogdIDoRNQ-ABydsgKE"
+  },
+  {
+    "name": "Sek Naimauddin",
+    "address": "Shop 1, near Habiba Masjid, Sector 15, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2583004,
+    "lng": 84.8484127,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJESh4ZdQbIDoROoL7wbACZoQ"
+  },
+  {
+    "name": "The Brand Foodie",
+    "address": "A-71, A-71, Sector 16, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2638659,
+    "lng": 84.84916799999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJLYk2MAAbIDoRVrpjENzdCDA"
+  },
+  {
+    "name": "AKBAR CHOWK",
+    "address": "7R5X+492, Unnamed Road, Sector 15, Rourkela",
+    "rating": 4.5,
+    "user_ratings_total": 15,
+    "lat": 22.2577603,
+    "lng": 84.8483804,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJzegyf48bIDoRtpFQLfTEs8E"
+  },
+  {
+    "name": "Junaed Store",
+    "address": "Momin Mohala, Sector 15, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2556027,
+    "lng": 84.84989279999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJZ7SzcfgbIDoRubqK4oZ79wE"
+  },
+  {
+    "name": "6 Paani",
+    "address": "Unnamed Road, Sector 15, Rourkela",
+    "rating": 4.8,
+    "user_ratings_total": 8,
+    "lat": 22.2585557,
+    "lng": 84.8465229,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJ0w05E8YbIDoRA8E8gqFQ9gg"
+  },
+  {
+    "name": "Om Sairam Idli Dosa",
+    "address": "7V33+9FF, Unnamed Road, Sector-7, Rourkela",
+    "rating": 3,
+    "user_ratings_total": 1,
+    "lat": 22.2534395,
+    "lng": 84.8536783,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJR4sujAYbIDoRYRjCs40rSqI"
+  },
+  {
+    "name": "Hotel kanika",
+    "address": "B-Block, Sector 6, Rourkela",
+    "rating": 5,
+    "user_ratings_total": 1,
+    "lat": 22.25561219999999,
+    "lng": 84.8603576,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJNW5BUQAfIDoRYeTazVNvcLw"
+  },
+  {
+    "name": "First love the tasty hub",
+    "address": "7V85+PFH, Sector 18, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.26682199999999,
+    "lng": 84.8587477,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJDWCaSgAdIDoR0lCL1T0YfFU"
+  },
+  {
+    "name": "Brothers Kitchen",
+    "address": "Sector-7, Rourkela",
+    "rating": 4.2,
+    "user_ratings_total": 24,
+    "lat": 22.2523665,
+    "lng": 84.8562656,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJZ_EzBaQZIDoRhfIxsHL8T3Q"
+  },
+  {
+    "name": "Guru Hotel",
+    "address": "At Utkal, Ispat Market, Sector 18, Rourkela",
+    "rating": 4,
+    "user_ratings_total": 55,
+    "lat": 22.2581878,
+    "lng": 84.8625144,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJFcBwNQIcIDoRcyJ9tvqGkLc"
+  },
+  {
+    "name": "Sai ram idli & dosa",
+    "address": "7R5V+RMV, Sector 15, Rourkela",
+    "rating": 3,
+    "user_ratings_total": 3,
+    "lat": 22.2596095,
+    "lng": 84.8441623,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJU1n6ZcEbIDoRKqD3A2HqUug"
+  },
+  {
+    "name": "Hotel Raj",
+    "address": "7R5V+XJH, Sector 15, Rourkela",
+    "rating": 1,
+    "user_ratings_total": 1,
+    "lat": 22.2599416,
+    "lng": 84.8441168,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJbc_5Y3wbIDoR9NCqelAxC1I"
+  },
+  {
+    "name": "Sahoo Canteen",
+    "address": "nearcarmel chowck sahoocanteen 5, Sector 19, Rourkela",
+    "rating": 4.2,
+    "user_ratings_total": 111,
+    "lat": 22.2656126,
+    "lng": 84.8612606,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJHTDzuggcIDoR55JCgZk3Qxc"
+  },
+  {
+    "name": "Goutam Patanaik",
+    "address": "near Tarini Temple, Sector 15 , E114, near Tarini Temple, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2590513,
+    "lng": 84.84414749999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJ0buJhikbIDoRoHv5sbQpgZc"
+  },
+  {
+    "name": "Nimai Samosa",
+    "address": "7V76+VV8, Sector 19, Rourkela",
+    "rating": 4.3,
+    "user_ratings_total": 245,
+    "lat": 22.2646734,
+    "lng": 84.86220349999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJkRaA_wUcIDoRlH8AyVE7wFI"
+  },
+  {
+    "name": "6 Paani Pani Puri Store",
+    "address": "7R5V+GHH, Community Centre Road, Sector 15, Rourkela",
+    "rating": 4.2,
+    "user_ratings_total": 10,
+    "lat": 22.2588198,
+    "lng": 84.8439879,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJeaSOOXEbIDoR7kYzB0nhcdQ"
+  },
+  {
+    "name": "Liza Spicy Bite",
+    "address": "Near, Community Centre Road, Sector 15, Rourkela",
+    "rating": 2,
+    "user_ratings_total": 2,
+    "lat": 22.2585768,
+    "lng": 84.843916,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJ7cJCcEAbIDoRiImx89pVOqg"
+  },
+  {
+    "name": "SAHOO TIFFEN STALL",
+    "address": "Jharkhand Market, IGH Street, Sector 19, Rourkela",
+    "rating": 3,
+    "user_ratings_total": 1,
+    "lat": 22.2618038,
+    "lng": 84.86341259999999,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJWWynQnodIDoRLs3a1VAQ7L0"
+  },
+  {
+    "name": "Bhagi Tiffin",
+    "address": "7R5V+9FH, Community Centre Road, Sector 15, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2584341,
+    "lng": 84.8437264,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJi4LdnLcbIDoR64G2bNGXduo"
+  },
+  {
+    "name": "Sarat Fast Food",
+    "address": "Jharkhand Market, Sector 19, Rourkela",
+    "rating": null,
+    "user_ratings_total": null,
+    "lat": 22.2618933,
+    "lng": 84.8636921,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJZ7Lp0SYdIDoR8j5FMThl7CQ"
+  },
+  {
+    "name": "Maa Tarini Chhat",
+    "address": "Jharkhand Market, Sector 19, Rourkela",
+    "rating": 4.3,
+    "user_ratings_total": 4,
+    "lat": 22.2618892,
+    "lng": 84.8637833,
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "place_id": "ChIJiSUjIpwdIDoR7PMNY_f8BoM"
+  }
+]

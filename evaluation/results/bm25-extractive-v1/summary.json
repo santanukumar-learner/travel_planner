@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "dataset": {
+    "id": "rourkela-curated-rag",
+    "version": "1.0.0",
+    "origin": "curated",
+    "cases": 100,
+    "answerable_cases": 90,
+    "unsupported_cases": 10,
+    "corpus": [
+      {
+        "path": "rag.json",
+        "sha256": "4d9f2e483cc48fb1344a488519f727e598ef4aedb8eb965197649717483052cd"
+      },
+      {
+        "path": "restaurants_rourkela.json",
+        "sha256": "062b8135fd1754c83b83d669a202d4fdd681b1fa450f76051a7590d99246b16c"
+      }
+    ]
+  },
+  "configuration": {
+    "retriever": "bm25",
+    "generator": "extractive",
+    "k": 5,
+    "retriever_url": null,
+    "model": null,
+    "judge_model": null,
+    "temperature": 0,
+    "dataset_sha256": "8982af4d90523bb5c859819e1e32f0ee34a5eac458a2a04332fec08424718dee",
+    "hash_format": "compact-json-preserve-order-utf8-v1",
+    "qa_prompt_sha256": "9e19b76415a898aea585fdb5361d08a6da365d9a654a1ccf3146895196cddba8",
+    "judge_prompt_sha256": "c1277bbb55ef0dcbba23d180766e9c07a2bf399c5dd39db9a5ff04b3648ee67a"
+  },
+  "metrics": {
+    "hit_rate_at_k": 1.0,
+    "mrr_at_k": 0.9944444444444445,
+    "recall_at_k": 1.0,
+    "corpus_bleu": {
+      "score": 0.36875002497333015,
+      "signature": "nrefs:1|case:lc|eff:yes|tok:13a|smooth:exp|version:2.6.0",
+      "scale": "0-1"
+    },
+    "unsupported_abstention_accuracy": 0.0
+  },
+  "slices": {
+    "multi_document": {
+      "answerable_cases": 10,
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 1.0
+    },
+    "named_entity": {
+      "answerable_cases": 50,
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 1.0
+    },
+    "paraphrase": {
+      "answerable_cases": 30,
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 0.9833333333333333
+    },
+    "unsupported": {
+      "answerable_cases": 0,
+      "hit_rate_at_k": null,
+      "mrr_at_k": null
+    }
+  },
+  "coverage": {
+    "cases_scored": 100,
+    "answers_present": 100,
+    "errors": 0,
+    "judged_cases": 0
+  },
+  "llm_judge": {
+    "status": "not_run",
+    "model": null,
+    "groundedness": null,
+    "relevance": null,
+    "reference_coverage": null,
+    "scale": "1-5",
+    "coverage": 0.0
+  },
+  "latency_ms": {
+    "mean": 1.3766569995641476,
+    "median": 1.2698499995167367
+  },
+  "failures": [],
+  "unsupported_answer_failures": [
+    {
+      "id": "rkl-091",
+      "question": "What is today's live queue time at Hanuman Vatika?",
+      "answer": "Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet."
+    },
+    {
+      "id": "rkl-092",
+      "question": "What is the current weather forecast for Pitamahal Dam tomorrow?",
+      "answer": "Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests."
+    },
+    {
+      "id": "rkl-093",
+      "question": "What is the latest 2026 crime rate at Koel Riverbank?",
+      "answer": "Koel Riverbank is a peaceful riverside spot near Rourkela, suitable for relaxation, picnics, and evening walks."
+    },
+    {
+      "id": "rkl-094",
+      "question": "How much is the current boating ticket at Mandira Dam?",
+      "answer": "Mandira Dam is a scenic reservoir near Kansbahal’s foothills, constructed to supply water to Rourkela Steel Plant."
+    },
+    {
+      "id": "rkl-095",
+      "question": "What is the phone number of Hotel Shubham?",
+      "answer": "Hotel Shubham is at Railway Station, Shubham Lane, Rourkela."
+    },
+    {
+      "id": "rkl-096",
+      "question": "What time does Pizza Den close tonight?",
+      "answer": "Pizza Den is at Madhusudan Marg, Station Road, Rourkela."
+    },
+    {
+      "id": "rkl-097",
+      "question": "Which rooms are available at Hotel Radhika Regency right now?",
+      "answer": "Hotel Radhika Regency is at near Vijaya Bank, Bisra Road, Udit Nagar, Rourkela."
+    },
+    {
+      "id": "rkl-098",
+      "question": "What is the live train fare from Delhi to Rourkela?",
+      "answer": "Indira Gandhi Park is one of the largest public parks in Rourkela."
+    },
+    {
+      "id": "rkl-099",
+      "question": "What is the Wi-Fi password at Curry Pot?",
+      "answer": "Curry Pot is at Infront of Hotel Mayfair, H 1, Panposh Road, Civil Township, Rourkela."
+    },
+    {
+      "id": "rkl-100",
+      "question": "Which attractions in Delhi are described in this Rourkela knowledge base?",
+      "answer": "Indian fast food is at Laxmi Market, near Community Centre, Sector 17, Rourkela 3, Sector-17, Rourkela."
+    }
+  ],
+  "run": {
+    "created_at_utc": "2026-10-15T06:48:25.719964+00:00",
+    "python": "3.14.6",
+    "dependencies": {
+      "sacrebleu": "2.6.0",
+      "jsonschema": "4.26.0",
+      "python-dotenv": "1.2.4"
+    },
+    "source_sha256": {
+      "evaluation/__init__.py": "f2ca9a20d30a355688d111db33da159f341078eb8e1d93ad9b0e62181681fe80",
+      "evaluation/backends.py": "509244fcaae2ef1ebf9b245b23c90e5110db71c5b1b38a0620550c2e8ea97d05",
+      "evaluation/build_benchmark.py": "bb03ae4aaab7afb2331895939c9a946717a58a71656508fe990951424120b3a0",
+      "evaluation/dataset.py": "f4e079573b2fa5b74cfeb6ab8e7f9af3e7d369e373c2a4057c5059e8ebade1d3",
+      "evaluation/metrics.py": "e08444d19fa3d30a92cd3e52fe499319aba7a66a0d47888e795ca3fc0daaf5a7",
+      "evaluation/run.py": "00587240c3b481759a94b8377ee110aad08badfcd47c6649849318db89d23949",
+      "evaluation/schemas/dataset.schema.json": "6f1a6d6b8ad94e2de6fb9f47b804d85ed406498c55ec7a1a294f30b8daf1a4b0",
+      "evaluation/schemas/prediction.schema.json": "3b65d01c7fdb20f3e774ce010076d583d17a53353370649fb8624d1b85eaf53d",
+      "retrieval_documents.py": "470801c50d27c28f1016892a5699dc7a198da5633ab02c5d1486fde50887a573",
+      "pathway_service.py": "20ed81b6f88fd71b4c85ea863bd632bc43b5402a5bb2fda291d526b5681d10c9",
+      "requirements-eval.txt": "9c9a4b3b2f2fa6479439e4da6fe9514f89068d171408c81dc315903aec35e804"
+    }
+  }
+}

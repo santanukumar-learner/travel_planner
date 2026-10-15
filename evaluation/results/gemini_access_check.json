@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-15T06:44:38.167395+00:00",
+  "check": "Gemini model-list access preflight",
+  "generation_attempted": false,
+  "judge_attempted": false,
+  "credential_value_recorded": false,
+  "http_status": 403,
+  "result": "access_denied"
+}

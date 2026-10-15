@@ -1,0 +1,1799 @@
+{
+  "schema_version": 1,
+  "dataset_id": "rourkela-curated-rag",
+  "dataset_version": "1.0.0",
+  "origin": "curated",
+  "description": "100 authored development cases, not users: 60 attraction questions, 20 restaurant questions, 10 multi-document questions, 10 unsupported questions. References are derived from the bundled corpus, not externally fact-checked.",
+  "corpus": [
+    {
+      "path": "rag.json",
+      "sha256": "4d9f2e483cc48fb1344a488519f727e598ef4aedb8eb965197649717483052cd"
+    },
+    {
+      "path": "restaurants_rourkela.json",
+      "sha256": "062b8135fd1754c83b83d669a202d4fdd681b1fa450f76051a7590d99246b16c"
+    }
+  ],
+  "cases": [
+    {
+      "id": "rkl-001",
+      "question": "How tall is the Hanuman statue at Hanuman Vatika?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_1"
+      ],
+      "reference_answers": [
+        "The Hanuman statue at Hanuman Vatika is 75 feet tall."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_1",
+          "quote": "{\"id\": \"religious_1\", \"title\": \"Hanuman Vatika\", \"content\": \"Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet. The complex contains multiple shrines, gardens, and a kalyan mandap, making it ideal for families and community gatherings. Best visited in the evening for cooler weather.\", \"lat\": 22.23, \"lng\": 84.826}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-002",
+      "question": "Which Rourkela temple complex features a 75-foot Hanuman statue?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_1"
+      ],
+      "reference_answers": [
+        "Hanuman Vatika features the 75-foot Hanuman statue."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_1",
+          "quote": "{\"id\": \"religious_1\", \"title\": \"Hanuman Vatika\", \"content\": \"Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet. The complex contains multiple shrines, gardens, and a kalyan mandap, making it ideal for families and community gatherings. Best visited in the evening for cooler weather.\", \"lat\": 22.23, \"lng\": 84.826}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-003",
+      "question": "What facilities besides the main statue are described at Hanuman Vatika?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_1"
+      ],
+      "reference_answers": [
+        "Hanuman Vatika contains multiple shrines, gardens, and a kalyan mandap."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_1",
+          "quote": "{\"id\": \"religious_1\", \"title\": \"Hanuman Vatika\", \"content\": \"Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet. The complex contains multiple shrines, gardens, and a kalyan mandap, making it ideal for families and community gatherings. Best visited in the evening for cooler weather.\", \"lat\": 22.23, \"lng\": 84.826}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-004",
+      "question": "When should I visit Hanuman Vatika for cooler weather?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_1"
+      ],
+      "reference_answers": [
+        "Visit Hanuman Vatika in the evening for cooler weather."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_1",
+          "quote": "{\"id\": \"religious_1\", \"title\": \"Hanuman Vatika\", \"content\": \"Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet. The complex contains multiple shrines, gardens, and a kalyan mandap, making it ideal for families and community gatherings. Best visited in the evening for cooler weather.\", \"lat\": 22.23, \"lng\": 84.826}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-005",
+      "question": "Which attraction has a kalyan mandap for community gatherings?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_1"
+      ],
+      "reference_answers": [
+        "Hanuman Vatika has a kalyan mandap and is suitable for community gatherings."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_1",
+          "quote": "{\"id\": \"religious_1\", \"title\": \"Hanuman Vatika\", \"content\": \"Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet. The complex contains multiple shrines, gardens, and a kalyan mandap, making it ideal for families and community gatherings. Best visited in the evening for cooler weather.\", \"lat\": 22.23, \"lng\": 84.826}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-006",
+      "question": "Can a family visit Hanuman Vatika together?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_1"
+      ],
+      "reference_answers": [
+        "Hanuman Vatika is suitable for families and community gatherings."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_1",
+          "quote": "{\"id\": \"religious_1\", \"title\": \"Hanuman Vatika\", \"content\": \"Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet. The complex contains multiple shrines, gardens, and a kalyan mandap, making it ideal for families and community gatherings. Best visited in the evening for cooler weather.\", \"lat\": 22.23, \"lng\": 84.826}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-007",
+      "question": "To whom is Vedvyas Temple dedicated?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_2"
+      ],
+      "reference_answers": [
+        "Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_2",
+          "quote": "{\"id\": \"religious_2\", \"title\": \"Vedvyas Temple\", \"content\": \"Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata. It is located at the confluence of the Brahmani, Koel, and Saraswati rivers, approximately 20 km from Rourkela. The atmosphere is peaceful and spiritual, usually less crowded.\", \"lat\": 22.2355, \"lng\": 84.7864}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-008",
+      "question": "Which rivers meet near Vedvyas Temple?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_2"
+      ],
+      "reference_answers": [
+        "The Brahmani, Koel, and Saraswati rivers meet near Vedvyas Temple."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_2",
+          "quote": "{\"id\": \"religious_2\", \"title\": \"Vedvyas Temple\", \"content\": \"Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata. It is located at the confluence of the Brahmani, Koel, and Saraswati rivers, approximately 20 km from Rourkela. The atmosphere is peaceful and spiritual, usually less crowded.\", \"lat\": 22.2355, \"lng\": 84.7864}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-009",
+      "question": "How far from Rourkela is Vedvyas Temple according to the record?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_2"
+      ],
+      "reference_answers": [
+        "Vedvyas Temple is approximately 20 km from Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_2",
+          "quote": "{\"id\": \"religious_2\", \"title\": \"Vedvyas Temple\", \"content\": \"Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata. It is located at the confluence of the Brahmani, Koel, and Saraswati rivers, approximately 20 km from Rourkela. The atmosphere is peaceful and spiritual, usually less crowded.\", \"lat\": 22.2355, \"lng\": 84.7864}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-010",
+      "question": "Where can I visit a shrine associated with the author of the Mahabharata?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_2"
+      ],
+      "reference_answers": [
+        "Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_2",
+          "quote": "{\"id\": \"religious_2\", \"title\": \"Vedvyas Temple\", \"content\": \"Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata. It is located at the confluence of the Brahmani, Koel, and Saraswati rivers, approximately 20 km from Rourkela. The atmosphere is peaceful and spiritual, usually less crowded.\", \"lat\": 22.2355, \"lng\": 84.7864}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-011",
+      "question": "Which temple is situated at a three-river confluence?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_2"
+      ],
+      "reference_answers": [
+        "Vedvyas Temple is at the confluence of the Brahmani, Koel, and Saraswati rivers."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_2",
+          "quote": "{\"id\": \"religious_2\", \"title\": \"Vedvyas Temple\", \"content\": \"Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata. It is located at the confluence of the Brahmani, Koel, and Saraswati rivers, approximately 20 km from Rourkela. The atmosphere is peaceful and spiritual, usually less crowded.\", \"lat\": 22.2355, \"lng\": 84.7864}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-012",
+      "question": "How does the record describe the atmosphere at Vedvyas Temple?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_2"
+      ],
+      "reference_answers": [
+        "Vedvyas Temple is peaceful and spiritual, and usually less crowded."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_2",
+          "quote": "{\"id\": \"religious_2\", \"title\": \"Vedvyas Temple\", \"content\": \"Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata. It is located at the confluence of the Brahmani, Koel, and Saraswati rivers, approximately 20 km from Rourkela. The atmosphere is peaceful and spiritual, usually less crowded.\", \"lat\": 22.2355, \"lng\": 84.7864}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-013",
+      "question": "What are the opening hours of Indira Gandhi Park in the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_1"
+      ],
+      "reference_answers": [
+        "Indira Gandhi Park is open from 8 AM to 6 PM."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_1",
+          "quote": "{\"id\": \"nature_1\", \"title\": \"Indira Gandhi Park\", \"content\": \"Indira Gandhi Park is one of the largest public parks in Rourkela. It is open from 8 AM to 6 PM and ideal for families, especially in the cool morning hours. Features include a small zoo, a toy train, and a musical fountain. Entry fee: Rs 10.\", \"lat\": 22.254, \"lng\": 84.866}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-014",
+      "question": "What is the recorded entry fee at Indira Gandhi Park?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_1"
+      ],
+      "reference_answers": [
+        "The recorded entry fee at Indira Gandhi Park is Rs 10."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_1",
+          "quote": "{\"id\": \"nature_1\", \"title\": \"Indira Gandhi Park\", \"content\": \"Indira Gandhi Park is one of the largest public parks in Rourkela. It is open from 8 AM to 6 PM and ideal for families, especially in the cool morning hours. Features include a small zoo, a toy train, and a musical fountain. Entry fee: Rs 10.\", \"lat\": 22.254, \"lng\": 84.866}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-015",
+      "question": "What attractions are inside Indira Gandhi Park?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_1"
+      ],
+      "reference_answers": [
+        "Indira Gandhi Park has a small zoo, a toy train, and a musical fountain."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_1",
+          "quote": "{\"id\": \"nature_1\", \"title\": \"Indira Gandhi Park\", \"content\": \"Indira Gandhi Park is one of the largest public parks in Rourkela. It is open from 8 AM to 6 PM and ideal for families, especially in the cool morning hours. Features include a small zoo, a toy train, and a musical fountain. Entry fee: Rs 10.\", \"lat\": 22.254, \"lng\": 84.866}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-016",
+      "question": "Which public park offers a toy train and a small zoo?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_1"
+      ],
+      "reference_answers": [
+        "Indira Gandhi Park offers a toy train and a small zoo."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_1",
+          "quote": "{\"id\": \"nature_1\", \"title\": \"Indira Gandhi Park\", \"content\": \"Indira Gandhi Park is one of the largest public parks in Rourkela. It is open from 8 AM to 6 PM and ideal for families, especially in the cool morning hours. Features include a small zoo, a toy train, and a musical fountain. Entry fee: Rs 10.\", \"lat\": 22.254, \"lng\": 84.866}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-017",
+      "question": "When is a cooler time for a family visit to Indira Gandhi Park?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_1"
+      ],
+      "reference_answers": [
+        "The cool morning hours are suitable for a family visit to Indira Gandhi Park."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_1",
+          "quote": "{\"id\": \"nature_1\", \"title\": \"Indira Gandhi Park\", \"content\": \"Indira Gandhi Park is one of the largest public parks in Rourkela. It is open from 8 AM to 6 PM and ideal for families, especially in the cool morning hours. Features include a small zoo, a toy train, and a musical fountain. Entry fee: Rs 10.\", \"lat\": 22.254, \"lng\": 84.866}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-018",
+      "question": "Where can children see a musical fountain along with a toy train?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_1"
+      ],
+      "reference_answers": [
+        "Indira Gandhi Park has a musical fountain and a toy train."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_1",
+          "quote": "{\"id\": \"nature_1\", \"title\": \"Indira Gandhi Park\", \"content\": \"Indira Gandhi Park is one of the largest public parks in Rourkela. It is open from 8 AM to 6 PM and ideal for families, especially in the cool morning hours. Features include a small zoo, a toy train, and a musical fountain. Entry fee: Rs 10.\", \"lat\": 22.254, \"lng\": 84.866}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-019",
+      "question": "Where is the Jagannath Temple located in Rourkela?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_7"
+      ],
+      "reference_answers": [
+        "The Jagannath Temple is in Sector 3 of Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_7",
+          "quote": "{\"id\": \"religious_7\", \"title\": \"Jagannath Temple, Sector 3\", \"content\": \"The Jagannath Temple in Rourkela’s Sector 3 is a replica of the famous Puri Jagannath Temple. It is well-maintained and hosts the annual Rath Yatra, making it a significant religious site within the city.\", \"lat\": 22.23, \"lng\": 84.85}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-020",
+      "question": "Which famous temple is the Sector 3 Jagannath Temple a replica of?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_7"
+      ],
+      "reference_answers": [
+        "It is a replica of the Puri Jagannath Temple."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_7",
+          "quote": "{\"id\": \"religious_7\", \"title\": \"Jagannath Temple, Sector 3\", \"content\": \"The Jagannath Temple in Rourkela’s Sector 3 is a replica of the famous Puri Jagannath Temple. It is well-maintained and hosts the annual Rath Yatra, making it a significant religious site within the city.\", \"lat\": 22.23, \"lng\": 84.85}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-021",
+      "question": "What annual festival does the Jagannath Temple in Sector 3 host?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_7"
+      ],
+      "reference_answers": [
+        "The Jagannath Temple in Sector 3 hosts the annual Rath Yatra."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_7",
+          "quote": "{\"id\": \"religious_7\", \"title\": \"Jagannath Temple, Sector 3\", \"content\": \"The Jagannath Temple in Rourkela’s Sector 3 is a replica of the famous Puri Jagannath Temple. It is well-maintained and hosts the annual Rath Yatra, making it a significant religious site within the city.\", \"lat\": 22.23, \"lng\": 84.85}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-022",
+      "question": "Which Rourkela shrine is modeled after the temple at Puri?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_7"
+      ],
+      "reference_answers": [
+        "The Jagannath Temple in Sector 3 is a replica of the Puri Jagannath Temple."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_7",
+          "quote": "{\"id\": \"religious_7\", \"title\": \"Jagannath Temple, Sector 3\", \"content\": \"The Jagannath Temple in Rourkela’s Sector 3 is a replica of the famous Puri Jagannath Temple. It is well-maintained and hosts the annual Rath Yatra, making it a significant religious site within the city.\", \"lat\": 22.23, \"lng\": 84.85}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-023",
+      "question": "Where in the city can I find a temple associated with Rath Yatra?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_7"
+      ],
+      "reference_answers": [
+        "The Jagannath Temple in Sector 3 hosts Rath Yatra."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_7",
+          "quote": "{\"id\": \"religious_7\", \"title\": \"Jagannath Temple, Sector 3\", \"content\": \"The Jagannath Temple in Rourkela’s Sector 3 is a replica of the famous Puri Jagannath Temple. It is well-maintained and hosts the annual Rath Yatra, making it a significant religious site within the city.\", \"lat\": 22.23, \"lng\": 84.85}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-024",
+      "question": "How is the maintenance of Jagannath Temple Sector 3 described?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_7"
+      ],
+      "reference_answers": [
+        "The Jagannath Temple in Sector 3 is described as well-maintained."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_7",
+          "quote": "{\"id\": \"religious_7\", \"title\": \"Jagannath Temple, Sector 3\", \"content\": \"The Jagannath Temple in Rourkela’s Sector 3 is a replica of the famous Puri Jagannath Temple. It is well-maintained and hosts the annual Rath Yatra, making it a significant religious site within the city.\", \"lat\": 22.23, \"lng\": 84.85}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-025",
+      "question": "Why was Mandira Dam constructed?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_3"
+      ],
+      "reference_answers": [
+        "Mandira Dam was constructed to supply water to Rourkela Steel Plant."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_3",
+          "quote": "{\"id\": \"nature_3\", \"title\": \"Mandira Dam\", \"content\": \"Mandira Dam is a scenic reservoir near Kansbahal’s foothills, constructed to supply water to Rourkela Steel Plant. Popular picnic spot with boating facilities. Best visited during cool weather, especially post-monsoon.\", \"lat\": 22.252, \"lng\": 84.617}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-026",
+      "question": "Where is Mandira Dam located according to the description?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_3"
+      ],
+      "reference_answers": [
+        "Mandira Dam is near Kansbahal's foothills."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_3",
+          "quote": "{\"id\": \"nature_3\", \"title\": \"Mandira Dam\", \"content\": \"Mandira Dam is a scenic reservoir near Kansbahal’s foothills, constructed to supply water to Rourkela Steel Plant. Popular picnic spot with boating facilities. Best visited during cool weather, especially post-monsoon.\", \"lat\": 22.252, \"lng\": 84.617}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-027",
+      "question": "What leisure activity is available at Mandira Dam?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_3"
+      ],
+      "reference_answers": [
+        "Mandira Dam is a picnic spot with boating facilities."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_3",
+          "quote": "{\"id\": \"nature_3\", \"title\": \"Mandira Dam\", \"content\": \"Mandira Dam is a scenic reservoir near Kansbahal’s foothills, constructed to supply water to Rourkela Steel Plant. Popular picnic spot with boating facilities. Best visited during cool weather, especially post-monsoon.\", \"lat\": 22.252, \"lng\": 84.617}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-028",
+      "question": "Which reservoir supplies water to the steel plant?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_3"
+      ],
+      "reference_answers": [
+        "Mandira Dam supplies water to Rourkela Steel Plant."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_3",
+          "quote": "{\"id\": \"nature_3\", \"title\": \"Mandira Dam\", \"content\": \"Mandira Dam is a scenic reservoir near Kansbahal’s foothills, constructed to supply water to Rourkela Steel Plant. Popular picnic spot with boating facilities. Best visited during cool weather, especially post-monsoon.\", \"lat\": 22.252, \"lng\": 84.617}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-029",
+      "question": "When is a good season to visit Mandira Dam?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_3"
+      ],
+      "reference_answers": [
+        "Visit Mandira Dam during cool weather, especially post-monsoon."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_3",
+          "quote": "{\"id\": \"nature_3\", \"title\": \"Mandira Dam\", \"content\": \"Mandira Dam is a scenic reservoir near Kansbahal’s foothills, constructed to supply water to Rourkela Steel Plant. Popular picnic spot with boating facilities. Best visited during cool weather, especially post-monsoon.\", \"lat\": 22.252, \"lng\": 84.617}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-030",
+      "question": "Where can I picnic and go boating near Kansbahal?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_3"
+      ],
+      "reference_answers": [
+        "Mandira Dam is a picnic spot with boating facilities near Kansbahal's foothills."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_3",
+          "quote": "{\"id\": \"nature_3\", \"title\": \"Mandira Dam\", \"content\": \"Mandira Dam is a scenic reservoir near Kansbahal’s foothills, constructed to supply water to Rourkela Steel Plant. Popular picnic spot with boating facilities. Best visited during cool weather, especially post-monsoon.\", \"lat\": 22.252, \"lng\": 84.617}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-031",
+      "question": "How far is Pitamahal Dam from Rourkela in the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_4"
+      ],
+      "reference_answers": [
+        "Pitamahal Dam is about 22 km from Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_4",
+          "quote": "{\"id\": \"nature_4\", \"title\": \"Pitamahal Dam\", \"content\": \"Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests. Visitors enjoy boating, scenic photography, and picnics. Best time: winter and post-monsoon.\", \"lat\": 22.27, \"lng\": 84.62}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-032",
+      "question": "What surrounds Pitamahal Dam?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_4"
+      ],
+      "reference_answers": [
+        "Pitamahal Dam is surrounded by hills and forests."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_4",
+          "quote": "{\"id\": \"nature_4\", \"title\": \"Pitamahal Dam\", \"content\": \"Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests. Visitors enjoy boating, scenic photography, and picnics. Best time: winter and post-monsoon.\", \"lat\": 22.27, \"lng\": 84.62}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-033",
+      "question": "What activities are mentioned for Pitamahal Dam?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_4"
+      ],
+      "reference_answers": [
+        "Visitors enjoy boating, scenic photography, and picnics at Pitamahal Dam."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_4",
+          "quote": "{\"id\": \"nature_4\", \"title\": \"Pitamahal Dam\", \"content\": \"Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests. Visitors enjoy boating, scenic photography, and picnics. Best time: winter and post-monsoon.\", \"lat\": 22.27, \"lng\": 84.62}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-034",
+      "question": "Which dam about 22 kilometres away offers scenic photography?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_4"
+      ],
+      "reference_answers": [
+        "Pitamahal Dam is about 22 km from Rourkela and offers scenic photography."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_4",
+          "quote": "{\"id\": \"nature_4\", \"title\": \"Pitamahal Dam\", \"content\": \"Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests. Visitors enjoy boating, scenic photography, and picnics. Best time: winter and post-monsoon.\", \"lat\": 22.27, \"lng\": 84.62}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-035",
+      "question": "When is the best time to visit Pitamahal Dam?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_4"
+      ],
+      "reference_answers": [
+        "Winter and post-monsoon are the best times to visit Pitamahal Dam."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_4",
+          "quote": "{\"id\": \"nature_4\", \"title\": \"Pitamahal Dam\", \"content\": \"Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests. Visitors enjoy boating, scenic photography, and picnics. Best time: winter and post-monsoon.\", \"lat\": 22.27, \"lng\": 84.62}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-036",
+      "question": "Where is there a reservoir surrounded by hills and forests for a picnic?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_4"
+      ],
+      "reference_answers": [
+        "Pitamahal Dam is a reservoir surrounded by hills and forests, suitable for picnics."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_4",
+          "quote": "{\"id\": \"nature_4\", \"title\": \"Pitamahal Dam\", \"content\": \"Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests. Visitors enjoy boating, scenic photography, and picnics. Best time: winter and post-monsoon.\", \"lat\": 22.27, \"lng\": 84.62}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-037",
+      "question": "What activities are suitable at Koel Riverbank?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_11"
+      ],
+      "reference_answers": [
+        "Koel Riverbank is suitable for relaxation, picnics, and evening walks."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_11",
+          "quote": "{\"id\": \"nature_11\", \"title\": \"Koel Riverbank\", \"content\": \"Koel Riverbank is a peaceful riverside spot near Rourkela, suitable for relaxation, picnics, and evening walks. It offers scenic views of the flowing river and surrounding greenery.\", \"lat\": 22.2458, \"lng\": 84.784}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-038",
+      "question": "What scenery does Koel Riverbank offer?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_11"
+      ],
+      "reference_answers": [
+        "Koel Riverbank offers views of the flowing river and surrounding greenery."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_11",
+          "quote": "{\"id\": \"nature_11\", \"title\": \"Koel Riverbank\", \"content\": \"Koel Riverbank is a peaceful riverside spot near Rourkela, suitable for relaxation, picnics, and evening walks. It offers scenic views of the flowing river and surrounding greenery.\", \"lat\": 22.2458, \"lng\": 84.784}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-039",
+      "question": "How is Koel Riverbank described?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_11"
+      ],
+      "reference_answers": [
+        "Koel Riverbank is a peaceful riverside spot near Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_11",
+          "quote": "{\"id\": \"nature_11\", \"title\": \"Koel Riverbank\", \"content\": \"Koel Riverbank is a peaceful riverside spot near Rourkela, suitable for relaxation, picnics, and evening walks. It offers scenic views of the flowing river and surrounding greenery.\", \"lat\": 22.2458, \"lng\": 84.784}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-040",
+      "question": "Where can I take an evening walk beside the Koel river?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_11"
+      ],
+      "reference_answers": [
+        "Koel Riverbank is suitable for evening walks."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_11",
+          "quote": "{\"id\": \"nature_11\", \"title\": \"Koel Riverbank\", \"content\": \"Koel Riverbank is a peaceful riverside spot near Rourkela, suitable for relaxation, picnics, and evening walks. It offers scenic views of the flowing river and surrounding greenery.\", \"lat\": 22.2458, \"lng\": 84.784}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-041",
+      "question": "Which riverside place near Rourkela is described as peaceful for relaxation?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_11"
+      ],
+      "reference_answers": [
+        "Koel Riverbank is a peaceful riverside spot suitable for relaxation."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_11",
+          "quote": "{\"id\": \"nature_11\", \"title\": \"Koel Riverbank\", \"content\": \"Koel Riverbank is a peaceful riverside spot near Rourkela, suitable for relaxation, picnics, and evening walks. It offers scenic views of the flowing river and surrounding greenery.\", \"lat\": 22.2458, \"lng\": 84.784}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-042",
+      "question": "Can I picnic at Koel Riverbank?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_11"
+      ],
+      "reference_answers": [
+        "Koel Riverbank is suitable for picnics."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_11",
+          "quote": "{\"id\": \"nature_11\", \"title\": \"Koel Riverbank\", \"content\": \"Koel Riverbank is a peaceful riverside spot near Rourkela, suitable for relaxation, picnics, and evening walks. It offers scenic views of the flowing river and surrounding greenery.\", \"lat\": 22.2458, \"lng\": 84.784}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-043",
+      "question": "Which goddess is Rani Sati Mandir dedicated to?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_9"
+      ],
+      "reference_answers": [
+        "Rani Sati Mandir is dedicated to Goddess Rani Sati."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_9",
+          "quote": "{\"id\": \"religious_9\", \"title\": \"Rani Sati Mandir\", \"content\": \"Rani Sati Mandir in Rourkela is a well-known spiritual destination dedicated to Goddess Rani Sati. It attracts devotees during daily prayers and festivals. Located within city limits and easily accessible.\", \"lat\": 22.4039, \"lng\": 84.7319}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-044",
+      "question": "When does Rani Sati Mandir attract devotees?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_9"
+      ],
+      "reference_answers": [
+        "Rani Sati Mandir attracts devotees during daily prayers and festivals."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_9",
+          "quote": "{\"id\": \"religious_9\", \"title\": \"Rani Sati Mandir\", \"content\": \"Rani Sati Mandir in Rourkela is a well-known spiritual destination dedicated to Goddess Rani Sati. It attracts devotees during daily prayers and festivals. Located within city limits and easily accessible.\", \"lat\": 22.4039, \"lng\": 84.7319}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-045",
+      "question": "Is Rani Sati Mandir described as being within city limits?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_9"
+      ],
+      "reference_answers": [
+        "Rani Sati Mandir is described as located within city limits."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_9",
+          "quote": "{\"id\": \"religious_9\", \"title\": \"Rani Sati Mandir\", \"content\": \"Rani Sati Mandir in Rourkela is a well-known spiritual destination dedicated to Goddess Rani Sati. It attracts devotees during daily prayers and festivals. Located within city limits and easily accessible.\", \"lat\": 22.4039, \"lng\": 84.7319}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-046",
+      "question": "Which easily accessible spiritual destination honors Goddess Rani Sati?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_9"
+      ],
+      "reference_answers": [
+        "Rani Sati Mandir honors Goddess Rani Sati and is easily accessible."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_9",
+          "quote": "{\"id\": \"religious_9\", \"title\": \"Rani Sati Mandir\", \"content\": \"Rani Sati Mandir in Rourkela is a well-known spiritual destination dedicated to Goddess Rani Sati. It attracts devotees during daily prayers and festivals. Located within city limits and easily accessible.\", \"lat\": 22.4039, \"lng\": 84.7319}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-047",
+      "question": "What regular worship activity is described at Rani Sati Mandir?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_9"
+      ],
+      "reference_answers": [
+        "Devotees attend daily prayers at Rani Sati Mandir."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_9",
+          "quote": "{\"id\": \"religious_9\", \"title\": \"Rani Sati Mandir\", \"content\": \"Rani Sati Mandir in Rourkela is a well-known spiritual destination dedicated to Goddess Rani Sati. It attracts devotees during daily prayers and festivals. Located within city limits and easily accessible.\", \"lat\": 22.4039, \"lng\": 84.7319}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-048",
+      "question": "How accessible is Rani Sati Mandir according to the record?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_9"
+      ],
+      "reference_answers": [
+        "Rani Sati Mandir is within city limits and easily accessible."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_9",
+          "quote": "{\"id\": \"religious_9\", \"title\": \"Rani Sati Mandir\", \"content\": \"Rani Sati Mandir in Rourkela is a well-known spiritual destination dedicated to Goddess Rani Sati. It attracts devotees during daily prayers and festivals. Located within city limits and easily accessible.\", \"lat\": 22.4039, \"lng\": 84.7319}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-049",
+      "question": "On which river is Darjeeng Picnic Spot located?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_5"
+      ],
+      "reference_answers": [
+        "Darjeeng Picnic Spot is on the Brahmani River."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_5",
+          "quote": "{\"id\": \"nature_5\", \"title\": \"Darjeeng Picnic Spot\", \"content\": \"Darjeeng is a scenic riverside picnic spot on the banks of the Brahmani River, about 45 km from Rourkela. Surrounded by hills and dense forests, it’s a peaceful choice for picnics and photography. Best visited in winter and early summer.\", \"lat\": 21.9096, \"lng\": 84.9548}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-050",
+      "question": "How far from Rourkela is Darjeeng Picnic Spot?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_5"
+      ],
+      "reference_answers": [
+        "Darjeeng Picnic Spot is about 45 km from Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_5",
+          "quote": "{\"id\": \"nature_5\", \"title\": \"Darjeeng Picnic Spot\", \"content\": \"Darjeeng is a scenic riverside picnic spot on the banks of the Brahmani River, about 45 km from Rourkela. Surrounded by hills and dense forests, it’s a peaceful choice for picnics and photography. Best visited in winter and early summer.\", \"lat\": 21.9096, \"lng\": 84.9548}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-051",
+      "question": "What natural surroundings are described at Darjeeng?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_5"
+      ],
+      "reference_answers": [
+        "Darjeeng is surrounded by hills and dense forests."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_5",
+          "quote": "{\"id\": \"nature_5\", \"title\": \"Darjeeng Picnic Spot\", \"content\": \"Darjeeng is a scenic riverside picnic spot on the banks of the Brahmani River, about 45 km from Rourkela. Surrounded by hills and dense forests, it’s a peaceful choice for picnics and photography. Best visited in winter and early summer.\", \"lat\": 21.9096, \"lng\": 84.9548}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-052",
+      "question": "Which picnic spot is on the Brahmani River about 45 kilometres away?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_5"
+      ],
+      "reference_answers": [
+        "Darjeeng Picnic Spot is on the Brahmani River, about 45 km from Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_5",
+          "quote": "{\"id\": \"nature_5\", \"title\": \"Darjeeng Picnic Spot\", \"content\": \"Darjeeng is a scenic riverside picnic spot on the banks of the Brahmani River, about 45 km from Rourkela. Surrounded by hills and dense forests, it’s a peaceful choice for picnics and photography. Best visited in winter and early summer.\", \"lat\": 21.9096, \"lng\": 84.9548}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-053",
+      "question": "When is a good time to visit Darjeeng Picnic Spot?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_5"
+      ],
+      "reference_answers": [
+        "Winter and early summer are good times to visit Darjeeng Picnic Spot."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_5",
+          "quote": "{\"id\": \"nature_5\", \"title\": \"Darjeeng Picnic Spot\", \"content\": \"Darjeeng is a scenic riverside picnic spot on the banks of the Brahmani River, about 45 km from Rourkela. Surrounded by hills and dense forests, it’s a peaceful choice for picnics and photography. Best visited in winter and early summer.\", \"lat\": 21.9096, \"lng\": 84.9548}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-054",
+      "question": "Where can I enjoy riverside photography among hills and dense forests?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_5"
+      ],
+      "reference_answers": [
+        "Darjeeng Picnic Spot offers riverside photography among hills and dense forests."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_5",
+          "quote": "{\"id\": \"nature_5\", \"title\": \"Darjeeng Picnic Spot\", \"content\": \"Darjeeng is a scenic riverside picnic spot on the banks of the Brahmani River, about 45 km from Rourkela. Surrounded by hills and dense forests, it’s a peaceful choice for picnics and photography. Best visited in winter and early summer.\", \"lat\": 21.9096, \"lng\": 84.9548}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-055",
+      "question": "Where is Mirigikhoj Waterfall described as being?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_13"
+      ],
+      "reference_answers": [
+        "Mirigikhoj Waterfall is a hidden natural waterfall near Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_13",
+          "quote": "{\"id\": \"nature_13\", \"title\": \"Mirigikhoj Waterfall\", \"content\": \"Mirigikhoj Waterfall is a hidden natural waterfall near Rourkela, surrounded by forest. Best visited in post-monsoon and winter, it is suitable for trekking and nature photography.\", \"lat\": null, \"lng\": null, \"pincode\": 770052}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-056",
+      "question": "What surrounds Mirigikhoj Waterfall?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_13"
+      ],
+      "reference_answers": [
+        "Mirigikhoj Waterfall is surrounded by forest."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_13",
+          "quote": "{\"id\": \"nature_13\", \"title\": \"Mirigikhoj Waterfall\", \"content\": \"Mirigikhoj Waterfall is a hidden natural waterfall near Rourkela, surrounded by forest. Best visited in post-monsoon and winter, it is suitable for trekking and nature photography.\", \"lat\": null, \"lng\": null, \"pincode\": 770052}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-057",
+      "question": "When is the best time to visit Mirigikhoj Waterfall?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_13"
+      ],
+      "reference_answers": [
+        "Post-monsoon and winter are the best times to visit Mirigikhoj Waterfall."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_13",
+          "quote": "{\"id\": \"nature_13\", \"title\": \"Mirigikhoj Waterfall\", \"content\": \"Mirigikhoj Waterfall is a hidden natural waterfall near Rourkela, surrounded by forest. Best visited in post-monsoon and winter, it is suitable for trekking and nature photography.\", \"lat\": null, \"lng\": null, \"pincode\": 770052}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-058",
+      "question": "Which hidden waterfall near Rourkela is suitable for trekking?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_13"
+      ],
+      "reference_answers": [
+        "Mirigikhoj Waterfall is suitable for trekking."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_13",
+          "quote": "{\"id\": \"nature_13\", \"title\": \"Mirigikhoj Waterfall\", \"content\": \"Mirigikhoj Waterfall is a hidden natural waterfall near Rourkela, surrounded by forest. Best visited in post-monsoon and winter, it is suitable for trekking and nature photography.\", \"lat\": null, \"lng\": null, \"pincode\": 770052}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-059",
+      "question": "What activities are recommended at Mirigikhoj Waterfall?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_13"
+      ],
+      "reference_answers": [
+        "Trekking and nature photography are suitable at Mirigikhoj Waterfall."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_13",
+          "quote": "{\"id\": \"nature_13\", \"title\": \"Mirigikhoj Waterfall\", \"content\": \"Mirigikhoj Waterfall is a hidden natural waterfall near Rourkela, surrounded by forest. Best visited in post-monsoon and winter, it is suitable for trekking and nature photography.\", \"lat\": null, \"lng\": null, \"pincode\": 770052}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-060",
+      "question": "Does the dataset provide latitude and longitude for Mirigikhoj Waterfall?",
+      "category": "paraphrase",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_13"
+      ],
+      "reference_answers": [
+        "No. The latitude and longitude for Mirigikhoj Waterfall are null in the dataset."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_13",
+          "quote": "{\"id\": \"nature_13\", \"title\": \"Mirigikhoj Waterfall\", \"content\": \"Mirigikhoj Waterfall is a hidden natural waterfall near Rourkela, surrounded by forest. Best visited in post-monsoon and winter, it is suitable for trekking and nature photography.\", \"lat\": null, \"lng\": null, \"pincode\": 770052}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-061",
+      "question": "Where is Hotel Shubham located according to the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJAQAAZMgeIDoRittf4PRqLbE"
+      ],
+      "reference_answers": [
+        "Hotel Shubham is at Railway Station, Shubham Lane, Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJAQAAZMgeIDoRittf4PRqLbE",
+          "quote": "{\"name\": \"Hotel Shubham\", \"address\": \"Railway Station, Shubham Lane, Rourkela\", \"rating\": 3.5, \"user_ratings_total\": 835, \"lat\": 22.2261852, \"lng\": 84.86267989999999, \"types\": [\"lodging\", \"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJAQAAZMgeIDoRittf4PRqLbE\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-062",
+      "question": "What rating and review count are recorded for Hotel Shubham?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJAQAAZMgeIDoRittf4PRqLbE"
+      ],
+      "reference_answers": [
+        "Hotel Shubham has a recorded rating of 3.5/5 from 835 reviews."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJAQAAZMgeIDoRittf4PRqLbE",
+          "quote": "{\"name\": \"Hotel Shubham\", \"address\": \"Railway Station, Shubham Lane, Rourkela\", \"rating\": 3.5, \"user_ratings_total\": 835, \"lat\": 22.2261852, \"lng\": 84.86267989999999, \"types\": [\"lodging\", \"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJAQAAZMgeIDoRittf4PRqLbE\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-063",
+      "question": "Where is Hotel Radhika Regency located according to the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJpUH8GMkeIDoRfyH6-nvDpck"
+      ],
+      "reference_answers": [
+        "Hotel Radhika Regency is at near Vijaya Bank, Bisra Road, Udit Nagar, Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJpUH8GMkeIDoRfyH6-nvDpck",
+          "quote": "{\"name\": \"Hotel Radhika Regency\", \"address\": \"near Vijaya Bank, Bisra Road, Udit Nagar, Rourkela\", \"rating\": 4.2, \"user_ratings_total\": 5595, \"lat\": 22.2243429, \"lng\": 84.8637236, \"types\": [\"lodging\", \"bar\", \"store\", \"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJpUH8GMkeIDoRfyH6-nvDpck\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-064",
+      "question": "What rating and review count are recorded for Hotel Radhika Regency?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJpUH8GMkeIDoRfyH6-nvDpck"
+      ],
+      "reference_answers": [
+        "Hotel Radhika Regency has a recorded rating of 4.2/5 from 5595 reviews."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJpUH8GMkeIDoRfyH6-nvDpck",
+          "quote": "{\"name\": \"Hotel Radhika Regency\", \"address\": \"near Vijaya Bank, Bisra Road, Udit Nagar, Rourkela\", \"rating\": 4.2, \"user_ratings_total\": 5595, \"lat\": 22.2243429, \"lng\": 84.8637236, \"types\": [\"lodging\", \"bar\", \"store\", \"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJpUH8GMkeIDoRfyH6-nvDpck\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-065",
+      "question": "Where is Pahadi Restaurant located according to the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJQ9XgDVgXIDoRqrREG4N8ZiI"
+      ],
+      "reference_answers": [
+        "Pahadi Restaurant is at State Highway 10, Vedvyas, Gopapali."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJQ9XgDVgXIDoRqrREG4N8ZiI",
+          "quote": "{\"name\": \"Pahadi Restaurant\", \"address\": \"State Highway 10, Vedvyas, Gopapali\", \"rating\": 4.2, \"user_ratings_total\": 1749, \"lat\": 22.23690979999999, \"lng\": 84.7727201, \"types\": [\"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJQ9XgDVgXIDoRqrREG4N8ZiI\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-066",
+      "question": "What rating and review count are recorded for Pahadi Restaurant?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJQ9XgDVgXIDoRqrREG4N8ZiI"
+      ],
+      "reference_answers": [
+        "Pahadi Restaurant has a recorded rating of 4.2/5 from 1749 reviews."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJQ9XgDVgXIDoRqrREG4N8ZiI",
+          "quote": "{\"name\": \"Pahadi Restaurant\", \"address\": \"State Highway 10, Vedvyas, Gopapali\", \"rating\": 4.2, \"user_ratings_total\": 1749, \"lat\": 22.23690979999999, \"lng\": 84.7727201, \"types\": [\"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJQ9XgDVgXIDoRqrREG4N8ZiI\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-067",
+      "question": "Where is Neelam Restaurant located according to the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJJTGBwgIcIDoRdNlNtyvjDDo"
+      ],
+      "reference_answers": [
+        "Neelam Restaurant is at Indian Oil, Bank Street, Sector 19, Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJJTGBwgIcIDoRdNlNtyvjDDo",
+          "quote": "{\"name\": \"Neelam Restaurant\", \"address\": \"Indian Oil, Bank Street, Sector 19, Rourkela\", \"rating\": 3.6, \"user_ratings_total\": 458, \"lat\": 22.2548939, \"lng\": 84.86638529999999, \"types\": [\"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJJTGBwgIcIDoRdNlNtyvjDDo\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-068",
+      "question": "What rating and review count are recorded for Neelam Restaurant?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJJTGBwgIcIDoRdNlNtyvjDDo"
+      ],
+      "reference_answers": [
+        "Neelam Restaurant has a recorded rating of 3.6/5 from 458 reviews."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJJTGBwgIcIDoRdNlNtyvjDDo",
+          "quote": "{\"name\": \"Neelam Restaurant\", \"address\": \"Indian Oil, Bank Street, Sector 19, Rourkela\", \"rating\": 3.6, \"user_ratings_total\": 458, \"lat\": 22.2548939, \"lng\": 84.86638529999999, \"types\": [\"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJJTGBwgIcIDoRdNlNtyvjDDo\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-069",
+      "question": "Where is Hotel Kanisshk International located according to the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJMzndO8keIDoRCg9Q00lYHWQ"
+      ],
+      "reference_answers": [
+        "Hotel Kanisshk International is at Madhusudan Marg, Station Road, Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJMzndO8keIDoRCg9Q00lYHWQ",
+          "quote": "{\"name\": \"Hotel Kanisshk International\", \"address\": \"Madhusudan Marg, Station Road, Rourkela\", \"rating\": 3.8, \"user_ratings_total\": 510, \"lat\": 22.2241388, \"lng\": 84.8636831, \"types\": [\"lodging\", \"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJMzndO8keIDoRCg9Q00lYHWQ\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-070",
+      "question": "What rating and review count are recorded for Hotel Kanisshk International?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJMzndO8keIDoRCg9Q00lYHWQ"
+      ],
+      "reference_answers": [
+        "Hotel Kanisshk International has a recorded rating of 3.8/5 from 510 reviews."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJMzndO8keIDoRCg9Q00lYHWQ",
+          "quote": "{\"name\": \"Hotel Kanisshk International\", \"address\": \"Madhusudan Marg, Station Road, Rourkela\", \"rating\": 3.8, \"user_ratings_total\": 510, \"lat\": 22.2241388, \"lng\": 84.8636831, \"types\": [\"lodging\", \"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJMzndO8keIDoRCg9Q00lYHWQ\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-071",
+      "question": "Where is Curry Pot located according to the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJg1IvyAwZIDoR-589EU8DFkU"
+      ],
+      "reference_answers": [
+        "Curry Pot is at Infront of Hotel Mayfair, H 1, Panposh Road, Civil Township, Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJg1IvyAwZIDoR-589EU8DFkU",
+          "quote": "{\"name\": \"Curry Pot\", \"address\": \"Infront of Hotel Mayfair, H 1, Panposh Road, Civil Township, Rourkela\", \"rating\": 4.1, \"user_ratings_total\": 2848, \"lat\": 22.226917, \"lng\": 84.82128999999999, \"types\": [\"bar\", \"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJg1IvyAwZIDoR-589EU8DFkU\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-072",
+      "question": "What rating and review count are recorded for Curry Pot?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJg1IvyAwZIDoR-589EU8DFkU"
+      ],
+      "reference_answers": [
+        "Curry Pot has a recorded rating of 4.1/5 from 2848 reviews."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJg1IvyAwZIDoR-589EU8DFkU",
+          "quote": "{\"name\": \"Curry Pot\", \"address\": \"Infront of Hotel Mayfair, H 1, Panposh Road, Civil Township, Rourkela\", \"rating\": 4.1, \"user_ratings_total\": 2848, \"lat\": 22.226917, \"lng\": 84.82128999999999, \"types\": [\"bar\", \"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJg1IvyAwZIDoR-589EU8DFkU\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-073",
+      "question": "Where is The Sarovar court located according to the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJ____P_AbIDoRvOQ7TAurNMc"
+      ],
+      "reference_answers": [
+        "The Sarovar court is at Ispat Market, Ambagan Circle, Sector 19, Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJ____P_AbIDoRvOQ7TAurNMc",
+          "quote": "{\"name\": \"The Sarovar court\", \"address\": \"Ispat Market, Ambagan Circle, Sector 19, Rourkela\", \"rating\": 4, \"user_ratings_total\": 1171, \"lat\": 22.2562044, \"lng\": 84.86548409999999, \"types\": [\"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJ____P_AbIDoRvOQ7TAurNMc\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-074",
+      "question": "What rating and review count are recorded for The Sarovar court?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJ____P_AbIDoRvOQ7TAurNMc"
+      ],
+      "reference_answers": [
+        "The Sarovar court has a recorded rating of 4/5 from 1171 reviews."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJ____P_AbIDoRvOQ7TAurNMc",
+          "quote": "{\"name\": \"The Sarovar court\", \"address\": \"Ispat Market, Ambagan Circle, Sector 19, Rourkela\", \"rating\": 4, \"user_ratings_total\": 1171, \"lat\": 22.2562044, \"lng\": 84.86548409999999, \"types\": [\"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJ____P_AbIDoRvOQ7TAurNMc\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-075",
+      "question": "Where is Domino's Pizza | Udit Nagar, Rourkela located according to the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJLVCy6jgZIDoR4yBvtiWbPuw"
+      ],
+      "reference_answers": [
+        "Domino's Pizza | Udit Nagar, Rourkela is at Choudhary Complex, 1st & 2nd Floor, opposite Employment Exchange, Kachery Road, Udit Nagar, Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJLVCy6jgZIDoR4yBvtiWbPuw",
+          "quote": "{\"name\": \"Domino's Pizza | Udit Nagar, Rourkela\", \"address\": \"Choudhary Complex, 1st & 2nd Floor, opposite Employment Exchange, Kachery Road, Udit Nagar, Rourkela\", \"rating\": 4, \"user_ratings_total\": 3433, \"lat\": 22.2268359, \"lng\": 84.84253749999999, \"types\": [\"meal_takeaway\", \"meal_delivery\", \"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJLVCy6jgZIDoR4yBvtiWbPuw\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-076",
+      "question": "What rating and review count are recorded for Domino's Pizza | Udit Nagar, Rourkela?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJLVCy6jgZIDoR4yBvtiWbPuw"
+      ],
+      "reference_answers": [
+        "Domino's Pizza | Udit Nagar, Rourkela has a recorded rating of 4/5 from 3433 reviews."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJLVCy6jgZIDoR4yBvtiWbPuw",
+          "quote": "{\"name\": \"Domino's Pizza | Udit Nagar, Rourkela\", \"address\": \"Choudhary Complex, 1st & 2nd Floor, opposite Employment Exchange, Kachery Road, Udit Nagar, Rourkela\", \"rating\": 4, \"user_ratings_total\": 3433, \"lat\": 22.2268359, \"lng\": 84.84253749999999, \"types\": [\"meal_takeaway\", \"meal_delivery\", \"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJLVCy6jgZIDoR4yBvtiWbPuw\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-077",
+      "question": "Where is Moksha located according to the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJA_UMZ8keIDoRYtxarOt3arI"
+      ],
+      "reference_answers": [
+        "Moksha is at near Railway Station, Kachery Road, Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJA_UMZ8keIDoRYtxarOt3arI",
+          "quote": "{\"name\": \"Moksha\", \"address\": \"near Railway Station, Kachery Road, Rourkela\", \"rating\": 4.1, \"user_ratings_total\": 1234, \"lat\": 22.22477719999999, \"lng\": 84.8625107, \"types\": [\"restaurant\", \"bar\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJA_UMZ8keIDoRYtxarOt3arI\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-078",
+      "question": "What rating and review count are recorded for Moksha?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJA_UMZ8keIDoRYtxarOt3arI"
+      ],
+      "reference_answers": [
+        "Moksha has a recorded rating of 4.1/5 from 1234 reviews."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJA_UMZ8keIDoRYtxarOt3arI",
+          "quote": "{\"name\": \"Moksha\", \"address\": \"near Railway Station, Kachery Road, Rourkela\", \"rating\": 4.1, \"user_ratings_total\": 1234, \"lat\": 22.22477719999999, \"lng\": 84.8625107, \"types\": [\"restaurant\", \"bar\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJA_UMZ8keIDoRYtxarOt3arI\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-079",
+      "question": "Where is Pizza Den located according to the dataset?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJU8-MOckeIDoRasEW2SBKZAc"
+      ],
+      "reference_answers": [
+        "Pizza Den is at Madhusudan Marg, Station Road, Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJU8-MOckeIDoRasEW2SBKZAc",
+          "quote": "{\"name\": \"Pizza Den\", \"address\": \"Madhusudan Marg, Station Road, Rourkela\", \"rating\": 4.3, \"user_ratings_total\": 2742, \"lat\": 22.2239287, \"lng\": 84.8635513, \"types\": [\"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJU8-MOckeIDoRasEW2SBKZAc\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-080",
+      "question": "What rating and review count are recorded for Pizza Den?",
+      "category": "named_entity",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "restaurants_rourkela.json:ChIJU8-MOckeIDoRasEW2SBKZAc"
+      ],
+      "reference_answers": [
+        "Pizza Den has a recorded rating of 4.3/5 from 2742 reviews."
+      ],
+      "evidence": [
+        {
+          "doc_id": "restaurants_rourkela.json:ChIJU8-MOckeIDoRasEW2SBKZAc",
+          "quote": "{\"name\": \"Pizza Den\", \"address\": \"Madhusudan Marg, Station Road, Rourkela\", \"rating\": 4.3, \"user_ratings_total\": 2742, \"lat\": 22.2239287, \"lng\": 84.8635513, \"types\": [\"restaurant\", \"food\", \"point_of_interest\", \"establishment\"], \"place_id\": \"ChIJU8-MOckeIDoRasEW2SBKZAc\"}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-081",
+      "question": "Compare the family facilities at Hanuman Vatika and Indira Gandhi Park.",
+      "category": "multi_document",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_1",
+        "rag.json:nature_1"
+      ],
+      "reference_answers": [
+        "Hanuman Vatika has shrines, gardens, and a kalyan mandap. Indira Gandhi Park has a small zoo, toy train, and musical fountain."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_1",
+          "quote": "{\"id\": \"religious_1\", \"title\": \"Hanuman Vatika\", \"content\": \"Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet. The complex contains multiple shrines, gardens, and a kalyan mandap, making it ideal for families and community gatherings. Best visited in the evening for cooler weather.\", \"lat\": 22.23, \"lng\": 84.826}"
+        },
+        {
+          "doc_id": "rag.json:nature_1",
+          "quote": "{\"id\": \"nature_1\", \"title\": \"Indira Gandhi Park\", \"content\": \"Indira Gandhi Park is one of the largest public parks in Rourkela. It is open from 8 AM to 6 PM and ideal for families, especially in the cool morning hours. Features include a small zoo, a toy train, and a musical fountain. Entry fee: Rs 10.\", \"lat\": 22.254, \"lng\": 84.866}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-082",
+      "question": "Which seasons do the records recommend for Mandira Dam and Pitamahal Dam?",
+      "category": "multi_document",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_3",
+        "rag.json:nature_4"
+      ],
+      "reference_answers": [
+        "Mandira Dam is best during cool weather, especially post-monsoon. Pitamahal Dam is best in winter and post-monsoon."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_3",
+          "quote": "{\"id\": \"nature_3\", \"title\": \"Mandira Dam\", \"content\": \"Mandira Dam is a scenic reservoir near Kansbahal’s foothills, constructed to supply water to Rourkela Steel Plant. Popular picnic spot with boating facilities. Best visited during cool weather, especially post-monsoon.\", \"lat\": 22.252, \"lng\": 84.617}"
+        },
+        {
+          "doc_id": "rag.json:nature_4",
+          "quote": "{\"id\": \"nature_4\", \"title\": \"Pitamahal Dam\", \"content\": \"Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests. Visitors enjoy boating, scenic photography, and picnics. Best time: winter and post-monsoon.\", \"lat\": 22.27, \"lng\": 84.62}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-083",
+      "question": "Which rivers are associated with Vedvyas Temple and Darjeeng Picnic Spot?",
+      "category": "multi_document",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_2",
+        "rag.json:nature_5"
+      ],
+      "reference_answers": [
+        "Vedvyas Temple is at the confluence of the Brahmani, Koel, and Saraswati rivers. Darjeeng Picnic Spot is on the Brahmani River."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_2",
+          "quote": "{\"id\": \"religious_2\", \"title\": \"Vedvyas Temple\", \"content\": \"Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata. It is located at the confluence of the Brahmani, Koel, and Saraswati rivers, approximately 20 km from Rourkela. The atmosphere is peaceful and spiritual, usually less crowded.\", \"lat\": 22.2355, \"lng\": 84.7864}"
+        },
+        {
+          "doc_id": "rag.json:nature_5",
+          "quote": "{\"id\": \"nature_5\", \"title\": \"Darjeeng Picnic Spot\", \"content\": \"Darjeeng is a scenic riverside picnic spot on the banks of the Brahmani River, about 45 km from Rourkela. Surrounded by hills and dense forests, it’s a peaceful choice for picnics and photography. Best visited in winter and early summer.\", \"lat\": 21.9096, \"lng\": 84.9548}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-084",
+      "question": "Describe the religious associations of Jagannath Temple Sector 3 and Rani Sati Mandir.",
+      "category": "multi_document",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_7",
+        "rag.json:religious_9"
+      ],
+      "reference_answers": [
+        "Jagannath Temple Sector 3 is a replica of the Puri Jagannath Temple and hosts Rath Yatra. Rani Sati Mandir is dedicated to Goddess Rani Sati."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_7",
+          "quote": "{\"id\": \"religious_7\", \"title\": \"Jagannath Temple, Sector 3\", \"content\": \"The Jagannath Temple in Rourkela’s Sector 3 is a replica of the famous Puri Jagannath Temple. It is well-maintained and hosts the annual Rath Yatra, making it a significant religious site within the city.\", \"lat\": 22.23, \"lng\": 84.85}"
+        },
+        {
+          "doc_id": "rag.json:religious_9",
+          "quote": "{\"id\": \"religious_9\", \"title\": \"Rani Sati Mandir\", \"content\": \"Rani Sati Mandir in Rourkela is a well-known spiritual destination dedicated to Goddess Rani Sati. It attracts devotees during daily prayers and festivals. Located within city limits and easily accessible.\", \"lat\": 22.4039, \"lng\": 84.7319}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-085",
+      "question": "What can visitors do at Koel Riverbank and Darjeeng Picnic Spot?",
+      "category": "multi_document",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_11",
+        "rag.json:nature_5"
+      ],
+      "reference_answers": [
+        "Koel Riverbank offers relaxation, picnics, and evening walks. Darjeeng Picnic Spot offers picnics and photography."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_11",
+          "quote": "{\"id\": \"nature_11\", \"title\": \"Koel Riverbank\", \"content\": \"Koel Riverbank is a peaceful riverside spot near Rourkela, suitable for relaxation, picnics, and evening walks. It offers scenic views of the flowing river and surrounding greenery.\", \"lat\": 22.2458, \"lng\": 84.784}"
+        },
+        {
+          "doc_id": "rag.json:nature_5",
+          "quote": "{\"id\": \"nature_5\", \"title\": \"Darjeeng Picnic Spot\", \"content\": \"Darjeeng is a scenic riverside picnic spot on the banks of the Brahmani River, about 45 km from Rourkela. Surrounded by hills and dense forests, it’s a peaceful choice for picnics and photography. Best visited in winter and early summer.\", \"lat\": 21.9096, \"lng\": 84.9548}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-086",
+      "question": "Compare the natural surroundings of Pitamahal Dam and Mirigikhoj Waterfall.",
+      "category": "multi_document",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_4",
+        "rag.json:nature_13"
+      ],
+      "reference_answers": [
+        "Pitamahal Dam is surrounded by hills and forests. Mirigikhoj Waterfall is surrounded by forest."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_4",
+          "quote": "{\"id\": \"nature_4\", \"title\": \"Pitamahal Dam\", \"content\": \"Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests. Visitors enjoy boating, scenic photography, and picnics. Best time: winter and post-monsoon.\", \"lat\": 22.27, \"lng\": 84.62}"
+        },
+        {
+          "doc_id": "rag.json:nature_13",
+          "quote": "{\"id\": \"nature_13\", \"title\": \"Mirigikhoj Waterfall\", \"content\": \"Mirigikhoj Waterfall is a hidden natural waterfall near Rourkela, surrounded by forest. Best visited in post-monsoon and winter, it is suitable for trekking and nature photography.\", \"lat\": null, \"lng\": null, \"pincode\": 770052}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-087",
+      "question": "What are the main religious features of Hanuman Vatika and Vedvyas Temple?",
+      "category": "multi_document",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_1",
+        "rag.json:religious_2"
+      ],
+      "reference_answers": [
+        "Hanuman Vatika has a 75-foot Hanuman statue. Vedvyas Temple is dedicated to sage Vedvyas, author of the Mahabharata."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_1",
+          "quote": "{\"id\": \"religious_1\", \"title\": \"Hanuman Vatika\", \"content\": \"Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet. The complex contains multiple shrines, gardens, and a kalyan mandap, making it ideal for families and community gatherings. Best visited in the evening for cooler weather.\", \"lat\": 22.23, \"lng\": 84.826}"
+        },
+        {
+          "doc_id": "rag.json:religious_2",
+          "quote": "{\"id\": \"religious_2\", \"title\": \"Vedvyas Temple\", \"content\": \"Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata. It is located at the confluence of the Brahmani, Koel, and Saraswati rivers, approximately 20 km from Rourkela. The atmosphere is peaceful and spiritual, usually less crowded.\", \"lat\": 22.2355, \"lng\": 84.7864}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-088",
+      "question": "Identify the main setting of Mandira Dam and Darjeeng Picnic Spot.",
+      "category": "multi_document",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_3",
+        "rag.json:nature_5"
+      ],
+      "reference_answers": [
+        "Mandira Dam is a reservoir near Kansbahal's foothills. Darjeeng Picnic Spot is on the banks of the Brahmani River."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_3",
+          "quote": "{\"id\": \"nature_3\", \"title\": \"Mandira Dam\", \"content\": \"Mandira Dam is a scenic reservoir near Kansbahal’s foothills, constructed to supply water to Rourkela Steel Plant. Popular picnic spot with boating facilities. Best visited during cool weather, especially post-monsoon.\", \"lat\": 22.252, \"lng\": 84.617}"
+        },
+        {
+          "doc_id": "rag.json:nature_5",
+          "quote": "{\"id\": \"nature_5\", \"title\": \"Darjeeng Picnic Spot\", \"content\": \"Darjeeng is a scenic riverside picnic spot on the banks of the Brahmani River, about 45 km from Rourkela. Surrounded by hills and dense forests, it’s a peaceful choice for picnics and photography. Best visited in winter and early summer.\", \"lat\": 21.9096, \"lng\": 84.9548}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-089",
+      "question": "Which activities distinguish Indira Gandhi Park from Mirigikhoj Waterfall?",
+      "category": "multi_document",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:nature_1",
+        "rag.json:nature_13"
+      ],
+      "reference_answers": [
+        "Indira Gandhi Park has a zoo, toy train, and musical fountain. Mirigikhoj Waterfall is suitable for trekking and nature photography."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:nature_1",
+          "quote": "{\"id\": \"nature_1\", \"title\": \"Indira Gandhi Park\", \"content\": \"Indira Gandhi Park is one of the largest public parks in Rourkela. It is open from 8 AM to 6 PM and ideal for families, especially in the cool morning hours. Features include a small zoo, a toy train, and a musical fountain. Entry fee: Rs 10.\", \"lat\": 22.254, \"lng\": 84.866}"
+        },
+        {
+          "doc_id": "rag.json:nature_13",
+          "quote": "{\"id\": \"nature_13\", \"title\": \"Mirigikhoj Waterfall\", \"content\": \"Mirigikhoj Waterfall is a hidden natural waterfall near Rourkela, surrounded by forest. Best visited in post-monsoon and winter, it is suitable for trekking and nature photography.\", \"lat\": null, \"lng\": null, \"pincode\": 770052}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-090",
+      "question": "What distances from Rourkela are recorded for Vedvyas Temple and Pitamahal Dam?",
+      "category": "multi_document",
+      "answerable": true,
+      "relevant_doc_ids": [
+        "rag.json:religious_2",
+        "rag.json:nature_4"
+      ],
+      "reference_answers": [
+        "Vedvyas Temple is approximately 20 km from Rourkela. Pitamahal Dam is about 22 km from Rourkela."
+      ],
+      "evidence": [
+        {
+          "doc_id": "rag.json:religious_2",
+          "quote": "{\"id\": \"religious_2\", \"title\": \"Vedvyas Temple\", \"content\": \"Vedvyas Temple is dedicated to sage Vedvyas, the author of the Mahabharata. It is located at the confluence of the Brahmani, Koel, and Saraswati rivers, approximately 20 km from Rourkela. The atmosphere is peaceful and spiritual, usually less crowded.\", \"lat\": 22.2355, \"lng\": 84.7864}"
+        },
+        {
+          "doc_id": "rag.json:nature_4",
+          "quote": "{\"id\": \"nature_4\", \"title\": \"Pitamahal Dam\", \"content\": \"Pitamahal Dam, about 22 km from Rourkela, is a picturesque reservoir surrounded by hills and forests. Visitors enjoy boating, scenic photography, and picnics. Best time: winter and post-monsoon.\", \"lat\": 22.27, \"lng\": 84.62}"
+        }
+      ]
+    },
+    {
+      "id": "rkl-091",
+      "question": "What is today's live queue time at Hanuman Vatika?",
+      "category": "unsupported",
+      "answerable": false,
+      "relevant_doc_ids": [],
+      "reference_answers": [
+        "INSUFFICIENT_CONTEXT"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "rkl-092",
+      "question": "What is the current weather forecast for Pitamahal Dam tomorrow?",
+      "category": "unsupported",
+      "answerable": false,
+      "relevant_doc_ids": [],
+      "reference_answers": [
+        "INSUFFICIENT_CONTEXT"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "rkl-093",
+      "question": "What is the latest 2026 crime rate at Koel Riverbank?",
+      "category": "unsupported",
+      "answerable": false,
+      "relevant_doc_ids": [],
+      "reference_answers": [
+        "INSUFFICIENT_CONTEXT"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "rkl-094",
+      "question": "How much is the current boating ticket at Mandira Dam?",
+      "category": "unsupported",
+      "answerable": false,
+      "relevant_doc_ids": [],
+      "reference_answers": [
+        "INSUFFICIENT_CONTEXT"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "rkl-095",
+      "question": "What is the phone number of Hotel Shubham?",
+      "category": "unsupported",
+      "answerable": false,
+      "relevant_doc_ids": [],
+      "reference_answers": [
+        "INSUFFICIENT_CONTEXT"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "rkl-096",
+      "question": "What time does Pizza Den close tonight?",
+      "category": "unsupported",
+      "answerable": false,
+      "relevant_doc_ids": [],
+      "reference_answers": [
+        "INSUFFICIENT_CONTEXT"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "rkl-097",
+      "question": "Which rooms are available at Hotel Radhika Regency right now?",
+      "category": "unsupported",
+      "answerable": false,
+      "relevant_doc_ids": [],
+      "reference_answers": [
+        "INSUFFICIENT_CONTEXT"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "rkl-098",
+      "question": "What is the live train fare from Delhi to Rourkela?",
+      "category": "unsupported",
+      "answerable": false,
+      "relevant_doc_ids": [],
+      "reference_answers": [
+        "INSUFFICIENT_CONTEXT"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "rkl-099",
+      "question": "What is the Wi-Fi password at Curry Pot?",
+      "category": "unsupported",
+      "answerable": false,
+      "relevant_doc_ids": [],
+      "reference_answers": [
+        "INSUFFICIENT_CONTEXT"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "rkl-100",
+      "question": "Which attractions in Delhi are described in this Rourkela knowledge base?",
+      "category": "unsupported",
+      "answerable": false,
+      "relevant_doc_ids": [],
+      "reference_answers": [
+        "INSUFFICIENT_CONTEXT"
+      ],
+      "evidence": []
+    }
+  ]
+}

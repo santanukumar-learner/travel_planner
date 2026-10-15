@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "dataset_version",
+    "origin",
+    "description",
+    "corpus",
+    "cases"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dataset_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "origin": {
+      "const": "curated"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "corpus": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    "cases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "question",
+          "category",
+          "answerable",
+          "relevant_doc_ids",
+          "reference_answers",
+          "evidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "question": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "enum": [
+              "named_entity",
+              "paraphrase",
+              "multi_document",
+              "unsupported"
+            ]
+          },
+          "answerable": {
+            "type": "boolean"
+          },
+          "relevant_doc_ids": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "reference_answers": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "doc_id",
+                "quote"
+              ],
+              "properties": {
+                "doc_id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "quote": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

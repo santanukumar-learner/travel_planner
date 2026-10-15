@@ -89,6 +89,7 @@ instance/
 .mypy_cache/
 .ruff_cache/
 .pyright/
+.venv-eval/
 
 
 *.iml

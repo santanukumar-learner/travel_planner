@@ -1,0 +1,17 @@
+{
+  "origin": "Observed failure captured from the initial BM25/extractive curated benchmark run",
+  "dataset_version": "1.0.0",
+  "description": "The baseline answered a live queue-time question with a static temple description. This is not a production incident.",
+  "prediction": {
+    "id": "rkl-091",
+    "retrieved_doc_ids": [
+      "rag.json:religious_1",
+      "rag.json:nature_4",
+      "restaurants_rourkela.json:ChIJlREwQhMZIDoRh0qkiuoIDAw",
+      "restaurants_rourkela.json:ChIJLVCy6jgZIDoR4yBvtiWbPuw",
+      "rag.json:nature_3"
+    ],
+    "answer": "Hanuman Vatika is a popular temple complex in Rourkela featuring one of the tallest statues of Hanuman at 75 feet.",
+    "error": null
+  }
+}
